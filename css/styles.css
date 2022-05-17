@@ -964,16 +964,14 @@ li {
     margin-bottom: 0;
     color: var(--white-color);
     background-blend-mode: soft-light;
-    background-color: rgba(0, 0, 0, .85);
+    background-color: rgba(0, 0, 0, .8);
     background-attachment: fixed;
     background-size: cover;
-    /* background-position: center; */
     filter: saturate(2);
 }
 
 .contact__body {
     justify-content: space-evenly;
-    /* background: linear-gradient(to right, transparent, rgba(200, 200, 200, 0.1), transparent); */
     background: linear-gradient(to right, transparent, rgba(77, 77, 77, 0.1), transparent);
     margin-bottom: 0;
     padding: 3rem 0;

@@ -94,7 +94,7 @@
 
     .services {
         text-align: center;
-        width: 80%;
+        width: 95%;
     }
     .services__article {
         width: 100%;
@@ -190,6 +190,7 @@
     }
     .contact__body {
         flex-wrap: wrap;
+        background: none;
     }
     .contact__icons {
         margin-bottom: 1.5rem;
