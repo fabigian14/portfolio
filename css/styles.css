@@ -960,29 +960,46 @@ li {
     flex-direction: column;
     height: 600px;
     text-align: center;
-    background-image: url(../assets/contact.jpg);
+    background-image: url(../assets/contact-3.jpg);
     margin-bottom: 0;
     color: var(--white-color);
     background-blend-mode: soft-light;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .85);
     background-attachment: fixed;
     background-size: cover;
+    /* background-position: center; */
+    filter: saturate(2);
 }
 
 .contact__body {
     justify-content: space-evenly;
-    background: linear-gradient(to right, transparent, rgba(200, 200, 200, 0.3), transparent);
+    /* background: linear-gradient(to right, transparent, rgba(200, 200, 200, 0.1), transparent); */
+    background: linear-gradient(to right, transparent, rgba(77, 77, 77, 0.1), transparent);
     margin-bottom: 0;
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 
 .contact__referent {
     color: var(--white-color);
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.contact__icons {
+    width: 100%;
 }
 
 .icons-contact {
-    font-size: 2rem;
+    font-size: 2.2rem;
+    color: var(--orange-color);
+    opacity: .8;
+    display: inline-block;
+    margin-bottom: 1rem;
+    -webkit-text-stroke: 1px black;
+}
+.contact__date {
+    font-weight: normal;
+    line-height: 2;
 }
 
 /* ========== CONTACTO ========== */
