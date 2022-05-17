@@ -1,0 +1,207 @@
+@media screen and (max-width:640px){
+
+
+    .circle-travel {
+        width: 160px;
+        margin-bottom: 1rem;
+    }
+
+    @keyframes traslate {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(150px);
+        }
+    }
+
+    h1,
+    h2 {
+        line-height: 1.4;
+    }
+
+    h3,
+    h4 {
+        line-height: 1.4;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+
+
+    ul {
+        list-style: none;
+    }
+    .navbar {
+        display: none;
+    }
+
+
+    .hero__overlay-text {
+        font-size: 1rem;
+    }
+
+
+    .about__name {
+        font-size: 1.8rem;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+
+    
+    .about__body {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .about__date-box {
+        width: 100%;
+    }
+
+
+    .skills {
+        width: 100%;
+    }
+    .skills__boxs {
+        width: 100%;
+    }
+    .skills__box {
+        width: 50%;
+    }
+    
+    .skills__process {
+        font-size: 18px;
+    }
+
+
+
+
+
+    .services {
+        text-align: center;
+        width: 80%;
+    }
+    .services__article {
+        width: 100%;
+        height:280px;
+        margin: 8px;
+    }
+
+
+
+    .gallery {
+        width: 100%;
+    }
+
+    .gallery__body {
+        width: 95%;
+    }
+
+    .picture {
+        width: 100%;
+        display: block;
+    }
+
+    .picture__box {
+        width: 100%;
+        height: 200px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .lightbox .grande {
+        width: 90%;
+        height: 60%;
+        object-fit: cover;
+    }
+
+
+
+
+
+
+    /* blog */
+
+    .text__description {
+        font-size: 14px;
+        width: 70%;
+        margin: auto;
+    }
+    .cards {
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        border: 1px solid var(--text-color);
+        width: 90%;
+        height: 430px;
+    }
+    
+    .card__image {
+        height: 220px;
+    }
+
+
+
+
+
+    /* testomonios */
+    .slider__img {
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+        object-position: top center;
+    }
+
+    .slider__text {
+        width: 90%;
+    }
+
+    .slides__quote {
+        font-size: 6rem;
+    }
+
+    .slider__paragraph {
+        font-size: 14px;
+    }
+
+
+
+    /* contact */
+    .contact {
+        background-position: center;
+    }
+    .contact__body {
+        flex-wrap: wrap;
+    }
+    .contact__icons {
+        margin-bottom: 1.5rem;
+    }
+    .icons-contact {
+        font-size: 1.5rem;
+    }
+
+
+    /* footer */
+    .footer__fab {
+        font-size: 11px;
+        font-weight: normal;
+    }
+
+}
