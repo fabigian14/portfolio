@@ -128,7 +128,7 @@
     .lightbox .grande {
         width: 90%;
         height: 60%;
-        object-fit: cover;
+        object-fit: contain;
     }
 
 

@@ -370,8 +370,6 @@ small {
 /* ========== SKILLS ========== */
 .skills {
     text-align: center;
-    background-color: var(--white-color-light);
-    padding: 5rem 0;
 }
 
 .skills__boxs {
@@ -396,11 +394,12 @@ small {
     width: 80px;
     height: 80px;
     padding-top: 22px;
-    box-shadow: 3px 3px 5px rgba(90, 90, 90, 0.5), -3px -3px 5px rgba(255, 255, 255, 0.5);
     border-radius: 50%;
     margin-bottom: 10px;
     transition: all 1s ease;
     cursor: pointer;
+    box-shadow: -18px 18px 40px #d9d9d9, 18px -18px 40px #ffffff;
+    background: linear-gradient(225deg, #e6e6e6, #ffffff);
 }
 
 .skills__box-icon:hover .icons {
@@ -421,6 +420,8 @@ small {
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
+
+
 
 /* ========== SKILLS ========== */
 
@@ -983,6 +984,7 @@ li {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
+
 .contact__icons {
     width: 100%;
 }
@@ -995,9 +997,17 @@ li {
     margin-bottom: 1rem;
     -webkit-text-stroke: 1px black;
 }
+
 .contact__date {
     font-weight: normal;
     line-height: 2;
+}
+svg.button {
+    width: 40px;
+    height: auto;
+    fill: orange;
+    display: inline-block;
+    margin-bottom: 1rem;
 }
 
 /* ========== CONTACTO ========== */
