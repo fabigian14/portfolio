@@ -960,6 +960,7 @@ li {
 .contact {
     flex-direction: column;
     height: 600px;
+    padding-top: 4rem;
     text-align: center;
     background-image: url(../assets/contact-3.jpg);
     margin-bottom: 0;
