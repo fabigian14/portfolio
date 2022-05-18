@@ -347,7 +347,6 @@ small {
 
 .about__date-box {
     width: 50%;
-    display: flex;
 }
 
 .about__date-box h4 {
@@ -359,9 +358,11 @@ small {
 .about__date-box small {
     font-size: 15px;
 }
-
+.about__date-box--flex {
+    display: flex;
+}
 .redes {
-    display: inline;
+    display: inline-block;
     width: 20px;
     margin-left: 10px;
 }
@@ -399,7 +400,6 @@ small {
     border-radius: 50%;
     margin-bottom: 10px;
     transition: all 1s ease;
-    cursor: pointer;
     box-shadow: -18px 18px 40px #d9d9d9, 18px -18px 40px #ffffff;
     background: linear-gradient(225deg, #e6e6e6, #ffffff);
 }
@@ -408,17 +408,11 @@ small {
     margin-left: 22px;
 }
 
-.skills__box-icon:hover .icons {
-    transition: all .2s ease;
-    color: orange;
-}
-
 .icons {
     font-size: 40px;
     color: var(--base-color);
     display: block;
     margin-bottom: 10px;
-    transition: .2s;
 }
 
 
@@ -1004,7 +998,7 @@ li {
 
 .icons-contact {
     font-size: 2.2rem;
-    color: var(--orange-color);
+    width: 40px;
     display: inline-block;
     margin-bottom: 1rem;
 }
@@ -1021,13 +1015,6 @@ li {
     margin: 5px auto;
     display: block;
 }
-svg.button {
-    width: 35px;
-    height: auto;
-    fill: orange;
-    display: inline-block;
-    margin-bottom: 1rem;
-}
 
 /* ========== CONTACTO ========== */
 
@@ -1037,7 +1024,6 @@ svg.button {
 .footer {
     text-align: center;
     background-color: var(--base-color);
-    /* background-color: #1a1a1a; */
     padding-top: 4rem;
     color: #7f7f7f;
 }
@@ -1048,15 +1034,16 @@ svg.button {
     font-size: 1.8rem;
 }
 
-.redes {
+.redes__footer {
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-between;
+    width: 20%;
+    margin: 1rem auto;
+    padding: 0;
 }
 
 .redes__link {
     background-color: #0f0f0f;
-    ;
     width: 40px;
     height: 40px;
     border-radius: 50%;
