@@ -1,0 +1,50 @@
+/* ========== ABOUT ========== */
+
+
+.services {
+    text-align: center;
+}
+.services__overlay {
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/servic.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .8);
+    background-blend-mode: soft-light;
+}
+.services__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 25%;
+    color: #fff;
+    height: 430px;
+    transition: all .7s ease-in-out;
+}
+.services__box:nth-child(1) {
+    background-color: #f57f17;
+    opacity: .9;
+}
+.services__box:nth-child(2) {
+    background-color: #55565b;
+    opacity: .84;
+}
+.services__box:nth-child(3) {
+    background-color: #f57f17;
+    opacity: .5;
+}
+.services__box:nth-child(4) {
+    background-color: #ff5722;
+    opacity: .84;
+}
+.services__box:hover {
+    background-color: rgba(0, 0, 0, .5);
+    transition: all .7s ease-in-out;
+}
+/* ========== ABOUT ========== */
+
+
+@media screen and (max-width:640px){
+    
+}
