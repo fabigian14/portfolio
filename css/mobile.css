@@ -76,6 +76,7 @@
 
     .skills {
         width: 100%;
+        margin-bottom: 0;
     }
     .skills__boxs {
         width: 100%;
@@ -185,15 +186,20 @@
 
     /* contact */
     .contact {
+        height: 700px;
         background-position: center;
         background-image: url(../assets/contact-2.jpg);
+        padding-top: 8rem;
     }
+
     .contact__body {
         flex-wrap: wrap;
         background: none;
     }
     .contact__icons {
+        width: 100%;
         margin-bottom: 1.5rem;
+        padding: 10px 0;
     }
     .icons-contact {
         font-size: 1.5rem;
