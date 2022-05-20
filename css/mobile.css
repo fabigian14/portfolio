@@ -82,10 +82,7 @@
     .about__image {
         width: 200px;
         height: 200px;
-        border-radius: 50%;
-        overflow: hidden;
-        filter: saturate(1.8);
-        margin-bottom: 0;
+        filter: saturate(1);
     }
     .about__img {
         width: 100%;
