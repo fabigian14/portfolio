@@ -90,7 +90,33 @@
         height: 100%;
         object-fit: cover;
     }
+    
+
+
     .buttons-container {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        flex-wrap: wrap;
+        /* border: 1px solid; */
+    }
+    
+    .icon__about {
+        font-size: 20px;
+        padding-top: 8px;
+    }
+    
+    .button {
+        justify-content: center;
+        width: 35px;
+        height: 35px;
+    }
+    
+    .button:hover {
+        display: none;
+    }
+    
+    .none {
         display: none;
     }
 
