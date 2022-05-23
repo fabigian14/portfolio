@@ -103,7 +103,13 @@
         font-size: 25px;
     }
 
-
+    .github {
+        display: block;
+        padding: 12px;
+    }
+    .twitter{
+        display: none;
+    }
     
 
 
