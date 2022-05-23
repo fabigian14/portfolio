@@ -94,28 +94,20 @@
 
 
     .buttons-container {
+        width: 100%;
         display: flex;
         justify-content: space-evenly;
-        width: 100%;
-        flex-wrap: wrap;
-        /* border: 1px solid; */
     }
     
     .icon__about {
-        font-size: 20px;
-        padding-top: 8px;
+        font-size: 25px;
     }
-    
-    .button {
-        justify-content: center;
-        width: 35px;
-        height: 35px;
-    }
-    
-    .button:hover {
+
+
+    .facebook {
         display: none;
     }
-    
+
     .none {
         display: none;
     }
