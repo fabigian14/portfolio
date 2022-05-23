@@ -22,6 +22,10 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- ===== FONT AWESOME ===== -->
 
+    <!-- ===== AOS-AMIMATION ===== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ===== AOS-AMIMATION ===== -->
+
 
 
 </head>
@@ -50,9 +54,12 @@
             <video class="hero__video" src="./assets/video-2.mp4" autoplay muted loop playsinline
                 preload="metadata"></video>
             <div class="hero__overlay flex-center">
-                <h1>HOLA, SOY<span class="hero__overlay-orange"> FABIAN RUIZ</span></h1>
-                <h2 class="hero__overlay-developer" data-text="Frontend Developer">Frontend Developer</h2>
-                <p class="hero__overlay-text">Hagamos un buen projecto...</p>
+                <h1 data-aos="fade-down" data-aos-easing="linear"
+                data-aos-duration="1500">HOLA, SOY<span class="hero__overlay-orange"> FABIAN RUIZ</span></h1>
+                <h2 class="hero__overlay-developer" data-text="Frontend Developer" data-aos="zoom-in" data-aos-easing="linear"
+                data-aos-duration="1500">Frontend Developer</h2>
+                <p class="hero__overlay-text" data-aos="zoom-in" data-aos-easing="linear"
+                data-aos-duration="1500">Hagamos un buen projecto...</p>
                 <div class="mouse"></div>
             </div>
         </section>
@@ -102,6 +109,26 @@
                         <a href="#"><img class="redes" src="./assets/icons/linkedin.svg" alt=""></a>
                     </div>
                 </div>
+                <div class='buttons-container'>
+                    <div class='button facebook' data-aos="fade-up" data-aos-delay="150">
+                        <a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
+                    </div>
+                    <div class='button twitter' data-aos="fade-up" data-aos-delay="300">
+                        <a href="#"><i class="fab fa-twitter fa-2x"></i></a> 
+                    </div>
+                    <div class='button github' data-aos="fade-up" data-aos-delay="450">
+                        <a href="#"><i class="fab fa-github fa-2x"></i></a>   
+                    </div>
+                    <div class='button instagram' data-aos="fade-up" data-aos-delay="600">
+                        <a href="#"><i class="fab fa-instagram fa-2x"></i></a> 
+                    </div>
+                    <div class='button codepen' data-aos="fade-up" data-aos-delay="750">
+                        <a href="#"><i class="fab fa-codepen fa-2x"></i></a>  
+                    </div>
+                    <div class='button reddit' data-aos="fade-up" data-aos-delay="900">
+                        <a href="#"><i class="fab fa-reddit fa-2x"></i></a>   
+                    </div>
+                  </div>
                 
             </div>
         </section>
@@ -119,7 +146,7 @@
 
             <div class="skills__boxs l-content">
                 <div class="skills__box">
-                    <div class="skills__box-icon">
+                    <div class="skills__box-icon" data-aos="fade-up" data-aos-delay="150">
                         <img class="icons-skills" src="./assets/icons/html-five2.svg" alt="">
                     </div>
                     <small class="skills-small">HTML</small>
@@ -127,7 +154,7 @@
                 </div>
 
                 <div class="skills__box">
-                    <div class="skills__box-icon">
+                    <div class="skills__box-icon" data-aos="fade-up" data-aos-delay="300">
                         <img class="icons-skills" src="./assets/icons/css3.svg" alt="">
                     </div>
                     <small class="skills-small">CSS</small>
@@ -136,7 +163,7 @@
 
 
                 <div class="skills__box">
-                    <div class="skills__box-icon">
+                    <div class="skills__box-icon" data-aos="fade-up" data-aos-delay="450">
                         <i class="icons fa-brands fa-js-square"></i>
                     </div>
                     <small class="skills-small">JAVASCRIPT</small>
@@ -144,7 +171,7 @@
                 </div>
 
                 <div class="skills__box">
-                    <div class="skills__box-icon">
+                    <div class="skills__box-icon" data-aos="fade-up" data-aos-delay="600">
                         <i class="icons fa-brands fa-figma"></i>
                     </div>
                     <small class="skills-small">FIGMA</small>
@@ -154,7 +181,7 @@
 
 
                 <div class="skills__box">
-                    <div class="skills__box-icon">
+                    <div class="skills__box-icon" data-aos="fade-up" data-aos-delay="750">
                         <i class="icons fa-brands fa-sass"></i>
                     </div>
                     <small class="skills-small">SASS -SCSS</small>
@@ -162,7 +189,7 @@
                 </div>
 
                 <div class="skills__box">
-                    <div class="skills__box-icon">
+                    <div class="skills__box-icon" data-aos="fade-up" data-aos-delay="900">
                         <i class="icons fa-brands fa-bootstrap"></i>
                     </div>
                     <small class="skills-small">BOOTSTRAP</small>
@@ -171,7 +198,7 @@
 
 
                 <div class="skills__box">
-                    <div class="skills__box-icon">
+                    <div class="skills__box-icon" data-aos="fade-up" data-aos-delay="450">
                         <img class="icons-skills" src="./assets/icons/git.svg" alt="">
                     </div>
                     <small class="skills-small">GIT</small>
@@ -179,7 +206,7 @@
                 </div>
 
                 <div class="skills__box">
-                    <div class="skills__box-icon">
+                    <div class="skills__box-icon" data-aos="fade-up" data-aos-delay="600">
                         <img class="icons-skills" src="./assets/icons/github.svg" alt="">
                     </div>
                     <small class="skills-small">GITHUB</small>
@@ -187,7 +214,7 @@
                 </div>
 
                 <div class="skills__box">
-                    <div class="skills__box-icon">
+                    <div class="skills__box-icon" data-aos="fade-up" data-aos-delay="750">
                         <img class="icons-skills" src="./assets/icons/display.svg" alt="">
                     </div>
                     <small class="skills-small">RESPONSIVE DESIGN</small>
@@ -195,7 +222,7 @@
                 </div>
 
                 <div class="skills__box">
-                    <div class="skills__box-icon">
+                    <div class="skills__box-icon" data-aos="fade-up" data-aos-delay="900">
                         <i class="icons fa-brands fa-python"></i>
                     </div>
                     <small class="skills-small">PYTHON</small>
@@ -208,7 +235,7 @@
 
             <div class="skills__boxs l-content">
                 <div class="skills__box">
-                    <div class="skills__box-icon">
+                    <div class="skills__box-icon" data-aos="fade-up" data-aos-delay="150">
                         <i class="icons fa-brands fa-react"></i>
                     </div>
                     <small class="skills-small">REACT</small>
@@ -217,7 +244,7 @@
 
 
                 <div class="skills__box">
-                    <div class="skills__box-icon">
+                    <div class="skills__box-icon" data-aos="fade-up" data-aos-delay="300">
                         <i class="icons fa-brands fa-node-js"></i>
                     </div>
                     <small class="skills-small">NODE JS</small>
@@ -226,7 +253,7 @@
 
 
                 <div class="skills__box">
-                    <div class="skills__box-icon">
+                    <div class="skills__box-icon" data-aos="fade-up" data-aos-delay="450">
                         <i class="icons fa-brands fa-php"></i>
                     </div>
                     <small class="skills-small">PHP</small>
@@ -235,7 +262,7 @@
                 
                 
                 <div class="skills__box">
-                    <div class="skills__box-icon">
+                    <div class="skills__box-icon" data-aos="fade-up" data-aos-delay="600">
                         <img class="icons-skills" src="./assets/icons/typescript.svg" alt="">
                     </div>
                     <small class="skills-small">TYPESCRIPT</small>
@@ -244,7 +271,7 @@
 
 
                 <div class="skills__box">
-                    <div class="skills__box-icon">
+                    <div class="skills__box-icon" data-aos="fade-up" data-aos-delay="750">
                         <img class="icons-skills" src="./assets/icons/mysql.svg" alt="">
                     </div>
                     <small class="skills-small">Mysql - Sql</small>
@@ -253,7 +280,7 @@
 
 
                 <div class="skills__box">
-                    <div class="skills__box-icon">
+                    <div class="skills__box-icon" data-aos="fade-up" data-aos-delay="900">
                         <img class="icons-skills" src="./assets/icons/adobephotoshop.svg" alt="">
                     </div>
                     <small class="skills-small">PHOTOSHOP</small>
@@ -274,32 +301,32 @@
 
             <div class="services__body l-content">
                 <div class="services__overlay">
-                    <div class="services__box">
+                    <div class="services__box" data-aos="fade-up" data-aos-delay="150">
                         <img class="services__img" src="./assets/icons-services/maquetacion.svg" alt="">
                         <h4 class="services__subtitle">MAQUETACIÓN WEB</h4>
                     </div>
-                    <div class="services__box">
+                    <div class="services__box" data-aos="fade-up" data-aos-delay="300">
                         <img class="services__img" src="./assets/icons-services/lnr-laptop-phone.svg" alt="">
                         <h4 class="services__subtitle">DESARROLLO A MEDIDA</h4>
                     </div>
-                    <div class="services__box">
+                    <div class="services__box" data-aos="fade-up" data-aos-delay="450">
                         <img class="services__img" src="./assets/icons-services/seo.svg" alt="">
                         <h4 class="services__subtitle">SEO</h4>
                     </div>
-                    <div class="services__box">
+                    <div class="services__box" data-aos="fade-up" data-aos-delay="600">
                         <img class="services__img" src="./assets/icons-services/lnr-earth.svg" alt="">
                         <h4 class="services__subtitle">ACCESIBILIDAD WEB</h4>
                     </div>
-                    <div class="services__box">
+                    <div class="services__box" data-aos="fade-up" data-aos-delay="600">
                         <img class="services__img" src="./assets/icons-services/lnr-cog.svg" alt="">
                         <h4 class="services__subtitle">AUTOMATIZACIÓN</h4>
                     </div>
-                    <div class="services__box">
+                    <div class="services__box" data-aos="fade-up" data-aos-delay="750">
                         <img class="services__img" src="./assets/icons-services/lnr-rocket.svg" alt="">
                         <h4 class="services__subtitle">DOMINIO & HOSTING</h4>
                     </div>
                 </div>
-                <h4 class="services__footer">El diseño de sitios web receptivos es esencial para los usuarios 52.2 % que acceden a Internet desde teléfonos inteligentes y tabletas.</h4>
+                <h4 class="services__footer">El diseño de sitios web receptivos es esencial para los usuarios, el 52.2 % que acceden a Internet, navegan de teléfonos inteligentes y tabletas.</h4>
 
             </div>
         </section>
@@ -358,6 +385,30 @@
                 </article>
                 <article class="project__article">
                     <figure class="switch figure-switch switch-right">
+                        <img src="./assets/img-3.webp" alt="example-image">
+                        <figcaption>
+                            <h3 class="title-3">VER PROYECTO</h3>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </figcaption>
+                    </figure>
+                    <div class="project__day">
+                        <h4>SERVICES-4</h4>
+                    </div>
+                </article>
+                <article class="project__article">
+                    <figure class="switch figure-switch switch-right">
+                        <img src="./assets/img-4.webp" alt="example-image">
+                        <figcaption>
+                            <h3 class="title-3">VER PROYECTO</h3>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </figcaption>
+                    </figure>
+                    <div class="project__day">
+                        <h4>SERVICES-4</h4>
+                    </div>
+                </article>
+                <article class="project__article">
+                    <figure class="switch figure-switch switch-right">
                         <img src="./assets/img-5.webp" alt="example-image">
                         <figcaption>
                             <h3 class="title-3">VER PROYECTO</h3>
@@ -395,7 +446,7 @@
                     </li>
                     <li class="picture__box">
                         <a href="#" class="click" title="Imagen 2">
-                            <img src="./assets/port-6.webp" alt="Imagen 2" class="picture__img" loading="lazy">
+                            <img src="./assets/port-2.webp" alt="Imagen 2" class="picture__img" loading="lazy">
                         </a>
                     </li>
                     <li class="picture__box">
@@ -430,7 +481,7 @@
             </div>
             <div class="blog__body">
                 <div class="cards">
-                    <article class="card" data-aos="zoom-in-down">
+                    <article class="card" data-aos="fade-up" data-aos-delay="150">
                         <div class="card__image">
                             <img src="./assets/blog-4.webp" class="card__img" alt="">
                             <span class="card__top">ARTICLE</span>
@@ -443,7 +494,7 @@
                         </div>
 
                     </article>
-                    <article class="card" data-aos="zoom-in-down">
+                    <article class="card" data-aos="fade-up" data-aos-delay="300">
                         <div class="card__image">
                             <img src="./assets/blog-2.webp" class="card__img" alt="">
                             <span class="card__top">ARTICLE</span>
@@ -456,7 +507,7 @@
                         </div>
 
                     </article>
-                    <article class="card" data-aos="zoom-in-down">
+                    <article class="card" data-aos="fade-up" data-aos-delay="450">
                         <div class="card__image">
                             <img src="./assets/blog-3.webp" class="card__img" alt="">
                             <span class="card__top">ARTICLE</span>
@@ -527,19 +578,19 @@
                 <div class="circle-travel"></div>
             </div>
             <div class="contact__body">
-                <div class="contact__icons">
+                <div class="contact__icons" data-aos="fade-up" data-aos-delay="150">
                     <!-- <i class="icons-contact fa-solid fa-location-dot"></i> -->
                     <img class="icons-contact" src="./assets/icons/location.svg" alt="">
                     <h4 class="contact__date">MY LOCATION</h4>
                     <p class="contact__referent">Pueblo Nuevo - Ferreñafe</p>
                 </div>
-                <div class="contact__icons">
+                <div class="contact__icons" data-aos="fade-up" data-aos-delay="300">
                     <!-- <i class="icons-contact fa-solid fa-mobile-screen-button"></i> -->
                     <img class="icons-contact" src="./assets/icons/mobile-3.svg" alt="">
                     <h4 class="contact__date">PHONE NUMBER</h4>
                     <p class="contact__referent">(+0051) 992172752</p>
                 </div>
-                <div class="contact__icons">
+                <div class="contact__icons" data-aos="fade-up" data-aos-delay="450">
                     <!-- <i class="icons-contact fa-solid fa-envelope"></i> -->
                     <img class="icons-contact" src="./assets/icons/email-2.svg" alt="">
                     <h4 class="contact__date">EMAIL ADDRESS</h4>
@@ -555,11 +606,11 @@
             <div class="footer">
                 <h3 class="footer__title">FABIANRC</h3>
                 <ul class="redes__footer">
-                    <li class="redes__link"><a href="#"><i class="icons-footer fa-brands fa-facebook-f"></i></a></li>
-                    <li class="redes__link"><a href="#"><i class="icons-footer fa-brands fa-twitter"></i></a></li>
-                    <li class="redes__link"><a href="#"><i class="icons-footer fa-brands fa-instagram"></i></a></li>
-                    <li class="redes__link"><a href="#"><i class="icons-footer fa-brands fa-youtube"></i></a></li>
-                    <li class="redes__link"><a href="#"><i class="icons-footer fa-brands fa-whatsapp"></i></a></li>
+                    <li class="redes__link" data-aos="fade-up" data-aos-delay="150"><a href="#"><i class="icons-footer fa-brands fa-facebook-f"></i></a></li>
+                    <li class="redes__link" data-aos="fade-up" data-aos-delay="300"><a href="#"><i class="icons-footer fa-brands fa-twitter"></i></a></li>
+                    <li class="redes__link" data-aos="fade-up" data-aos-delay="450"><a href="#"><i class="icons-footer fa-brands fa-instagram"></i></a></li>
+                    <li class="redes__link" data-aos="fade-up" data-aos-delay="600"><a href="#"><i class="icons-footer fa-brands fa-youtube"></i></a></li>
+                    <li class="redes__link" data-aos="fade-up" data-aos-delay="750"><a href="#"><i class="icons-footer fa-brands fa-whatsapp"></i></a></li>
                 </ul>
 
                 <div class="footer__line"></div>
@@ -576,6 +627,15 @@
     </main>
     <script src="./js/gallery.js"></script>
     <script src="./js/slider.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            duration: 800,
+        });
+      </script>
+
 </body>
 
 </html>

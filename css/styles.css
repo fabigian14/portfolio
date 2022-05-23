@@ -220,7 +220,7 @@ small {
     top: 0;
     z-index: 97;
 
-    justify-content: space-around;
+    justify-content: space-between;
 
     width: 100%;
     height: 60px;
@@ -229,13 +229,17 @@ small {
     color: var(--white-color);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
-
+.brand {
+    padding-left: 4rem;
+}
 .brand__title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
 }
-
+.menu {
+    padding-right: 4rem;
+}
 .menu {
     display: flex;
     gap: 35px;
@@ -253,11 +257,18 @@ small {
     position: relative;
     height: 90vh;
     text-align: center;
+    background-image: url(../assets/cont-1.jpg);
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, .7);
+    background-size: cover;
+    background-blend-mode: multiply;
+    filter: saturate(2);
 }
 
 .hero__video {
     height: 100%;
     background-color: var(--base-color);
+    display: none;
 }
 
 .hero__overlay {
@@ -343,6 +354,8 @@ small {
 .about__date {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 2rem;
+
 }
 
 .about__date-box {
@@ -360,6 +373,7 @@ small {
 }
 .about__date-box--flex {
     display: flex;
+    display: none;
 }
 .redes {
     display: inline-block;
@@ -380,6 +394,55 @@ small {
     height: 100%;
     object-fit: cover;
 }
+
+.buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    /* border: 1px solid; */
+  }
+  
+  .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+    margin-bottom: 1em;
+  }
+  .button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  
+  .facebook:hover {
+    background: #3b5998;
+  }
+  
+  .twitter:hover {
+    background: #1da1f2;
+  }
+  
+  .instagram:hover {
+    background: linear-gradient(135deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  }
+  
+  .github:hover {
+    background: black;
+  }
+  
+  .codepen:hover {
+    background: #1e1f26;
+  }
+  
+  .reddit:hover {
+    background: #ff6314;
+  }
 
 /* ========== ABOUT ========== */
 
@@ -443,7 +506,7 @@ small {
 /* ========== SERVICES ========== */
 .services {
     text-align: center;
-    background-color: #e0e5ec;
+    background-color: var(--white-color-light);
     padding: 5rem 0;
 }
 
@@ -466,8 +529,10 @@ small {
     width: 25%;
     height: 200px;
     text-align: center;
-    box-shadow: 9px 9px 10px #a3b1c6, -5px -5px 10px #ffffff;
-    border-radius: 15px;
+    /* box-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8dc; */
+    box-shadow: 3px 3px 5px -2px rgba(0, 0, 0, 0.15), -2px -2px 5px rgba(255, 255, 255, 0.1), inset -2px -2px 2px rgba(0, 0, 0, 0.2), inset 5px 5px 5px rgba(255, 255, 255, 255);
+    
+    border-radius: 20px;
 }
 .services__img {
     width: 60px;
@@ -1027,7 +1092,7 @@ li {
 .contact {
     background-image: url(../assets/contact-3.webp);
     background-blend-mode: soft-light;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .85);
     background-attachment: fixed;
     background-size: cover;
     color: var(--white-color);
