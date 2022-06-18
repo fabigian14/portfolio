@@ -605,10 +605,10 @@ header {
 
 /* ===== BLOG ===== */
 .blog {
-  background-image: url(../assets/blog/bg-blog.webp);
+  background-image: url(../assets/blog/bg-blog.jpg);
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgb(0, 0, 0, .8);
+  background-color: rgb(0, 0, 0, .9);
   background-blend-mode: multiply;
   padding: 3rem 0;
   color: var(--white-color);
@@ -769,7 +769,7 @@ header {
 .contact {
   background-image: url(../assets/hero-4.jpg);
   background-blend-mode: soft-light;
-  background-color: rgba(0, 0, 0, .85);
+  background-color: rgba(0, 0, 0, .9);
   background-attachment: fixed;
   background-size: cover;
   color: var(--white-color);
