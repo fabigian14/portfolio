@@ -44,7 +44,20 @@
     line-height: 2;
   }
 
+
+  header {
+    position: relative;
+  }
   .header-container {
+    justify-content: center;
+    flex-direction: column;
+    height: 2.5rem;
+  }
+  .brand {
+    padding-left: 0;
+    font-size: 1rem;
+  }
+  .menu {
     display: none;
   }
 
@@ -59,6 +72,9 @@
 
   .hero__title {
     font-weight: 500;
+  }
+  .hero__title-none {
+    display: none;
   }
 
   .hero__text {

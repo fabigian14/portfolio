@@ -244,11 +244,19 @@ header {
   padding-left: 3rem;
   font-size: 20px;
 }
+.brand-code {
+  display: inline-block;
+  width: 20px;
+  margin-right: 5px;
+}
 
 .menu {
   padding-right: 3rem;
 }
 
+.bran {
+  display: inline-block;
+}
 .brand,
 .menu__link {
   color: var(--white-color);
@@ -290,6 +298,7 @@ header {
 .hero__title {
   font-weight: 700;
   display: inline-block;
+  color: var(--orange-color);
 }
 
 .hero__title::after {
@@ -301,10 +310,6 @@ header {
   margin-right: auto;
   margin-bottom: 1rem;
   background-color: gray;
-}
-
-.hero__orange {
-  color: var(--orange-color);
 }
 
 .hero__subtitle {
