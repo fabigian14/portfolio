@@ -409,6 +409,17 @@ header {
   gap: 15px;
   margin-bottom: 2rem;
 }
+.skill-tecnology {
+  font-weight: 600;
+}
+.skill-tecnology::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  background-color: var(--orange-color);
+  display: block;
+  margin: 5px auto;
+}
 
 .skills__box {
   width: 20%;
