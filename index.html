@@ -2,527 +2,538 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PORTFOLIO-CV</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO-CV</title>
 
-  <!-- ==== TYPOGRAPHY ==== -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Questrial&display=swap"
-    rel="stylesheet">
-  <!-- ==== TYPOGRAPHY ==== -->
+    <!-- ==== TYPOGRAPHY ==== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Questrial&display=swap"
+        rel="stylesheet">
+    <!-- ==== TYPOGRAPHY ==== -->
 
-  <!-- ==== CSS ==== -->
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/mobile.css">
-  <!-- ==== CSS ==== -->
+    <!-- ==== CSS ==== -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile.css">
+    <!-- ==== CSS ==== -->
 
+     <!-- ===== FONT-AWESOME ===== -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- ===== FONT-AWESOME ===== -->
+
+
+    <!-- ===== AOS-AMIMATION ===== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ===== AOS-AMIMATION ===== -->
 </head>
 
 <body>
 
-  <header>
-    <div class="header-container">
-      <a class="brand" href="#">FGRC</a>
-      <nav class="menu">
-        <a class="menu__link" href="#">ACERCA</a>
-        <a class="menu__link" href="#">SERVICIOS</a>
-        <a class="menu__link" href="#">SKILLS</a>
-        <a class="menu__link" href="#">CONTACT</a>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <section class="hero l-full-content">
-      <div class="hero__container">
-        <span class="hero__home">HOME</span>
-        <h1 class="hero__title"><span class="hero__orange">FABIAN RUIZ</span></h1>
-        <h2 class="hero__subtitle" data-text="Frontend Developer">Frontend Developer</h2>
-        <p class="hero__text">Hagamos un buen projecto...</p>
-        <div class="mouse"></div>
-      </div>
-    </section>
-
-    <!-- ======== ACERCA DE MI ======== -->
-
-    <section class="about">
-      <div class="about-container">
-        <h2 class="about__title">ACERCA DE MI</h2>
-        <div class="circle-travel"></div>
-        <h3 class="about__name">FABIAN RUIZ CARMONA</h3>
-        <p>Soy desarrollador web frontend que es capaz de tomar un diseño y hacerlo realidad mediante interfaces de
-          usuario interactivas y un diseño que se adapte a los distintos dispositivos del mercado</p>
-
-        <ul class="about__list">
-          <li class="about__item-list"><span class="about__bold-list">NACÍ: </span>14. septiembre de 1992</li>
-          <li class="about__item-list"><span class="about__bold-list">NACIONALIDAD: </span>Peruano</li>
-          <li class="about__item-list"><span class="about__bold-list">LUGAR DE NACIMIENTO: </span>14. septiembre de 1992
-          </li>
-          <li class="about__item-list"><span class="about__bold-list">IDIOMA: </span>Español - Ingles básico - Portugués
-            básico</li>
-          <li class="about__item-list"><span class="about__bold-list">OCUPACIÓN: </span>Freelance</li>
-        </ul>
-
-        <div class="about__contact">
-          <a class="about__link-contact" href="#"><svg class="about-icon" version="1.1"
-              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26"
-              viewBox="0 0 16 16">
-              <path fill="#000000"
-                d="M9.5 3h2.5v-3h-2.5c-1.93 0-3.5 1.57-3.5 3.5v1.5h-2v3h2v8h3v-8h2.5l0.5-3h-3v-1.5c0-0.271 0.229-0.5 0.5-0.5z">
-              </path></a>
-          <a class="about__link-contact" href="#"><svg class="about-icon" version="1.1"
-              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26"
-              viewBox="0 0 16 16">
-              <path fill="#000000"
-                d="M14.5 0h-13c-0.825 0-1.5 0.675-1.5 1.5v13c0 0.825 0.675 1.5 1.5 1.5h13c0.825 0 1.5-0.675 1.5-1.5v-13c0-0.825-0.675-1.5-1.5-1.5zM11 2.5c0-0.275 0.225-0.5 0.5-0.5h2c0.275 0 0.5 0.225 0.5 0.5v2c0 0.275-0.225 0.5-0.5 0.5h-2c-0.275 0-0.5-0.225-0.5-0.5v-2zM8 5c1.656 0 3 1.344 3 3s-1.344 3-3 3c-1.656 0-3-1.344-3-3s1.344-3 3-3zM14 13.5v0c0 0.275-0.225 0.5-0.5 0.5h-11c-0.275 0-0.5-0.225-0.5-0.5v0-6.5h1.1c-0.066 0.322-0.1 0.656-0.1 1 0 2.762 2.237 5 5 5s5-2.238 5-5c0-0.344-0.034-0.678-0.1-1h1.1v6.5z">
-              </path>
-            </svg></a>
-          <a class="about__link-contact" href="#"><svg class="about-icon" version="1.1"
-              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26"
-              viewBox="0 0 16 16">
-              <path fill="#000000"
-                d="M8 0c-4.419 0-8 3.581-8 8s3.581 8 8 8 8-3.581 8-8-3.581-8-8-8zM11.931 5.484l-1.313 6.184c-0.091 0.441-0.356 0.544-0.725 0.341l-2-1.478-0.959 0.934c-0.112 0.109-0.2 0.2-0.4 0.2-0.259 0-0.216-0.097-0.303-0.344l-0.681-2.237-1.978-0.616c-0.428-0.131-0.431-0.425 0.097-0.634l7.706-2.975c0.35-0.159 0.691 0.084 0.556 0.625z">
-              </path>
-            </svg></a>
-          <a class="about__link-contact" href="#"><svg class="about-icon" version="1.1"
-              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26"
-              viewBox="0 0 16 16">
-              <path fill="#000000"
-                d="M13.641 2.325c-1.497-1.5-3.488-2.325-5.609-2.325-4.369 0-7.925 3.556-7.925 7.928 0 1.397 0.366 2.763 1.059 3.963l-1.125 4.109 4.203-1.103c1.159 0.631 2.463 0.966 3.787 0.966h0.003c0 0 0 0 0 0 4.369 0 7.928-3.556 7.928-7.928 0-2.119-0.825-4.109-2.322-5.609zM8.034 14.525v0c-1.184 0-2.344-0.319-3.356-0.919l-0.241-0.144-2.494 0.653 0.666-2.431-0.156-0.25c-0.663-1.047-1.009-2.259-1.009-3.506 0-3.634 2.956-6.591 6.594-6.591 1.759 0 3.416 0.688 4.659 1.931 1.244 1.247 1.928 2.9 1.928 4.662-0.003 3.637-2.959 6.594-6.591 6.594zM11.647 9.588c-0.197-0.1-1.172-0.578-1.353-0.644s-0.313-0.1-0.447 0.1c-0.131 0.197-0.512 0.644-0.628 0.778-0.116 0.131-0.231 0.15-0.428 0.050s-0.838-0.309-1.594-0.984c-0.588-0.525-0.987-1.175-1.103-1.372s-0.013-0.306 0.088-0.403c0.091-0.088 0.197-0.231 0.297-0.347s0.131-0.197 0.197-0.331c0.066-0.131 0.034-0.247-0.016-0.347s-0.447-1.075-0.609-1.472c-0.159-0.388-0.325-0.334-0.447-0.341-0.116-0.006-0.247-0.006-0.378-0.006s-0.347 0.050-0.528 0.247c-0.181 0.197-0.694 0.678-0.694 1.653s0.709 1.916 0.809 2.050c0.1 0.131 1.397 2.134 3.384 2.991 0.472 0.203 0.841 0.325 1.128 0.419 0.475 0.15 0.906 0.128 1.247 0.078 0.381-0.056 1.172-0.478 1.338-0.941s0.166-0.859 0.116-0.941c-0.047-0.088-0.178-0.137-0.378-0.238z">
-              </path>
-            </svg></a>
-          <a class="about__link-contact" href="#"><svg class="about-icon" version="1.1"
-              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30"
-              viewBox="0 0 20 20">
-              <path fill="#000000"
-                d="M17.5 6h-16c-0.827 0-1.5 0.673-1.5 1.5v9c0 0.827 0.673 1.5 1.5 1.5h16c0.827 0 1.5-0.673 1.5-1.5v-9c0-0.827-0.673-1.5-1.5-1.5zM17.5 7c0.030 0 0.058 0.003 0.087 0.008l-7.532 5.021c-0.29 0.193-0.819 0.193-1.109 0l-7.532-5.021c0.028-0.005 0.057-0.008 0.087-0.008h16zM17.5 17h-16c-0.276 0-0.5-0.224-0.5-0.5v-8.566l7.391 4.927c0.311 0.207 0.71 0.311 1.109 0.311s0.798-0.104 1.109-0.311l7.391-4.927v8.566c0 0.276-0.224 0.5-0.5 0.5z">
-              </path>
-            </svg></a>
-          <a class="about__link-contact" href="#"><svg class="about-icon" version="1.1"
-              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25"
-              viewBox="0 0 20 20">
-              <path fill="#000000"
-                d="M16 20c-1.771 0-3.655-0.502-5.6-1.492-1.793-0.913-3.564-2.22-5.122-3.78s-2.863-3.333-3.775-5.127c-0.988-1.946-1.49-3.83-1.49-5.601 0-1.148 1.070-2.257 1.529-2.68 0.661-0.609 1.701-1.32 2.457-1.32 0.376 0 0.816 0.246 1.387 0.774 0.425 0.394 0.904 0.928 1.383 1.544 0.289 0.372 1.73 2.271 1.73 3.182 0 0.747-0.845 1.267-1.739 1.816-0.346 0.212-0.703 0.432-0.961 0.639-0.276 0.221-0.325 0.338-0.333 0.364 0.949 2.366 3.85 5.267 6.215 6.215 0.021-0.007 0.138-0.053 0.363-0.333 0.207-0.258 0.427-0.616 0.639-0.961 0.55-0.894 1.069-1.739 1.816-1.739 0.911 0 2.81 1.441 3.182 1.73 0.616 0.479 1.15 0.958 1.544 1.383 0.528 0.57 0.774 1.011 0.774 1.387 0 0.756-0.711 1.799-1.319 2.463-0.424 0.462-1.533 1.537-2.681 1.537zM3.994 1c-0.268 0.005-0.989 0.333-1.773 1.055-0.744 0.686-1.207 1.431-1.207 1.945 0 6.729 8.264 15 14.986 15 0.513 0 1.258-0.465 1.944-1.213 0.723-0.788 1.051-1.512 1.056-1.781-0.032-0.19-0.558-0.929-1.997-2.037-1.237-0.952-2.24-1.463-2.498-1.469-0.018 0.005-0.13 0.048-0.357 0.336-0.197 0.251-0.408 0.594-0.613 0.926-0.56 0.911-1.089 1.772-1.858 1.772-0.124 0-0.246-0.024-0.363-0.071-2.625-1.050-5.729-4.154-6.779-6.779-0.126-0.315-0.146-0.809 0.474-1.371 0.33-0.299 0.786-0.579 1.228-0.851 0.332-0.204 0.676-0.415 0.926-0.613 0.288-0.227 0.331-0.339 0.336-0.357-0.007-0.258-0.517-1.261-1.469-2.498-1.108-1.439-1.847-1.964-2.037-1.997z">
-              </path>
-            </svg></a>
+    <header>
+        <div class="header-container">
+            <a class="brand" href="#">FGRC</a>
+            <nav class="menu">
+                <a class="menu__link" href="#acerca">ACERCA</a>
+                <a class="menu__link" href="#habilidades">SKILLS</a>
+                <a class="menu__link" href="#servicios">SERVICIOS</a>
+                <a class="menu__link" href="#proyectos">PROYECTOS</a>
+                <a class="menu__link" href="#blog">BLOG</a>
+                <a class="menu__link" href="#contacto">CONTACT</a>
+            </nav>
         </div>
-    </section>
-    <!-- ======== ACERCA DE MI ======== -->
-
-    <!-- ======== MIS HABILIDADES ======== -->
-    <section class="skills l-full-content">
-      <div class="skills-container">
-        <span class="frontend-developer">FRONTEND DEVELOPER</span>
-        <h2 class="skills__title">TECNOLOGÍAS</h2>
-        <div class="circle-travel"></div>
-
-        <div class="skills__tecnology l-content">
-          <div class="skills__box">
-            <div class="skills__icons">
-              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                width="30" height="30" viewBox="0 0 16 16">
-                <path fill="#000000"
-                  d="M0.946 0l1.284 14.4 5.762 1.6 5.777-1.602 1.286-14.398h-14.108zM12.668 13.482l-4.644 1.287v0.007l-0.012-0.004-0.012 0.004v-0.007l-4.644-1.287-1.098-12.304h11.508l-1.098 12.304zM10.168 8.284l-0.204 2.29-1.972 0.532-1.967-0.53-0.126-1.41h-1.773l0.247 2.774 3.626 1.003 3.615-1.003 0.485-5.422h-6.437l-0.161-1.809h6.758l0.158-1.766h-8.847l0.477 5.341z">
-                </path>
-              </svg>
+    </header>
+    <main>
+        <section class="hero l-full-content">
+            <div class="hero__container">
+                <span class="hero__home" data-aos="zoom-in-down" data-aos-easing="linear" data-aos-duration="1500">HOME</span>
+                <h1 class="hero__title" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000"><span class="hero__orange">FABIAN RUIZ</span></h1>
+                <h2 class="hero__subtitle" data-text="Frontend Developer" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">Frontend Developer</h2>
+                <p class="hero__text" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">Hagamos un buen projecto...</p>
+                <div class="mouse"></div>
             </div>
-            <h4 class="skills__name">HTML</h4>
-            <small class="skills__description-namr">Lenguaje de marcado</small>
-          </div>
+        </section>
 
-          <div class="skills__box">
-            <div class="skills__icons">
-              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                width="30" height="30" viewBox="0 0 16 16">
-                <path fill="#000000"
-                  d="M2.381 0.758l-0.537 2.686h10.934l-0.342 1.735h-10.94l-0.53 2.686h10.933l-0.61 3.063-4.406 1.46-3.819-1.46 0.261-1.329h-2.686l-0.639 3.224 6.316 2.417 7.281-2.417 2.403-12.066z">
-                </path>
-              </svg>
-            </div>
-            <h4 class="skills__name">CSS</h4>
-            <small class="skills__description-namr">Lenguaje de marcado</small>
-          </div>
+        <!-- ======== ACERCA DE MI ======== -->
 
-          <div class="skills__box">
-            <div class="skills__icons">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="30" height="30">
-                <path
-                  d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z" />
-              </svg>
-            </div>
-            <h4 class="skills__name">JAVA SCRIPT</h4>
-            <small class="skills__description-namr">Lenguaje de marcado</small>
-          </div>
+        <section id="acerca" class="about">
+            <div class="about-container">
+                <h2 class="about__title">ACERCA DE MI</h2>
+                <div class="circle-travel"></div>
+                <h3 class="about__name">FABIAN RUIZ CARMONA</h3>
+                <p>Soy desarrollador web frontend que es capaz de tomar un diseño y hacerlo realidad mediante interfaces de usuario interactivas y un diseño que se adapte a los distintos dispositivos del mercado</p>
 
-          <div class="skills__box">
-            <div class="skills__icons">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="35" height="35">
-                <path
-                  d="M333.5,201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4,238.2,333.5,225,333.5,201.4z M517,188.6 c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1,0-55.8,28.1-54.7,58.5c1,29.3-0.3,67.2-9.8,98.1 c-9.6,31-25.7,50.6-52.2,53.1v28.5c26.4,2.5,42.6,22.1,52.2,53.1c9.5,30.9,10.9,68.8,9.8,98.1c-1.1,30.5,22.7,58.5,54.7,58.5h328.7 c32.1,0,55.8-28.1,54.7-58.5c-1-29.3,0.3-67.2,9.8-98.1c9.6-31,25.7-50.6,52.1-53.1v-28.5C542.7,239.2,526.5,219.6,517,188.6z M300.2,375.1h-97.9V136.8h97.4c43.3,0,71.7,23.4,71.7,59.4c0,25.3-19.1,47.9-43.5,51.8v1.3c33.2,3.6,55.5,26.6,55.5,58.3 C383.4,349.7,352.1,375.1,300.2,375.1z M290.2,266.4h-50.1v78.4h52.3c34.2,0,52.3-13.7,52.3-39.5 C344.7,279.6,326.1,266.4,290.2,266.4z" />
-              </svg>
-            </div>
-            <h4 class="skills__name">BOOTSTRAP</h4>
-            <small class="skills__description-namr">Lenguaje de marcado</small>
-          </div>
+                <ul class="about__list">
+                    <li class="about__item-list"><span class="about__bold-list">NACÍ: </span>14. septiembre de 1992</li>
+                    <li class="about__item-list"><span class="about__bold-list">NACIONALIDAD: </span>Peruano</li>
+                    <li class="about__item-list"><span class="about__bold-list">LUGAR DE NACIMIENTO: </span>14. septiembre de 1992 </li>
+                    <li class="about__item-list"><span class="about__bold-list">IDIOMA: </span>Español - Ingles básico - Portugués básico</li>
+                    <li class="about__item-list"><span class="about__bold-list">OCUPACIÓN: </span>Freelance</li>
+                </ul>
 
-          <div class="skills__box">
-            <div class="skills__icons">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="35" height="35">
-                <path
-                  d="M301.84 378.92c-.3.6-.6 1.08 0 0zm249.13-87a131.16 131.16 0 0 0-58 13.5c-5.9-11.9-12-22.3-13-30.1-1.2-9.1-2.5-14.5-1.1-25.3s7.7-26.1 7.6-27.2-1.4-6.6-14.3-6.7-24 2.5-25.29 5.9a122.83 122.83 0 0 0-5.3 19.1c-2.3 11.7-25.79 53.5-39.09 75.3-4.4-8.5-8.1-16-8.9-22-1.2-9.1-2.5-14.5-1.1-25.3s7.7-26.1 7.6-27.2-1.4-6.6-14.29-6.7-24 2.5-25.3 5.9-2.7 11.4-5.3 19.1-33.89 77.3-42.08 95.4c-4.2 9.2-7.8 16.6-10.4 21.6-.4.8-.7 1.3-.9 1.7.3-.5.5-1 .5-.8-2.2 4.3-3.5 6.7-3.5 6.7v.1c-1.7 3.2-3.6 6.1-4.5 6.1-.6 0-1.9-8.4.3-19.9 4.7-24.2 15.8-61.8 15.7-63.1-.1-.7 2.1-7.2-7.3-10.7-9.1-3.3-12.4 2.2-13.2 2.2s-1.4 2-1.4 2 10.1-42.4-19.39-42.4c-18.4 0-44 20.2-56.58 38.5-7.9 4.3-25 13.6-43 23.5-6.9 3.8-14 7.7-20.7 11.4-.5-.5-.9-1-1.4-1.5-35.79-38.2-101.87-65.2-99.07-116.5 1-18.7 7.5-67.8 127.07-127.4 98-48.8 176.35-35.4 189.84-5.6 19.4 42.5-41.89 121.6-143.66 133-38.79 4.3-59.18-10.7-64.28-16.3-5.3-5.9-6.1-6.2-8.1-5.1-3.3 1.8-1.2 7 0 10.1 3 7.9 15.5 21.9 36.79 28.9 18.7 6.1 64.18 9.5 119.17-11.8 61.78-23.8 109.87-90.1 95.77-145.6C386.52 18.32 293-.18 204.57 31.22c-52.69 18.7-109.67 48.1-150.66 86.4-48.69 45.6-56.48 85.3-53.28 101.9 11.39 58.9 92.57 97.3 125.06 125.7-1.6.9-3.1 1.7-4.5 2.5-16.29 8.1-78.18 40.5-93.67 74.7-17.5 38.8 2.9 66.6 16.29 70.4 41.79 11.6 84.58-9.3 107.57-43.6s20.2-79.1 9.6-99.5c-.1-.3-.3-.5-.4-.8 4.2-2.5 8.5-5 12.8-7.5 8.29-4.9 16.39-9.4 23.49-13.3-4 10.8-6.9 23.8-8.4 42.6-1.8 22 7.3 50.5 19.1 61.7 5.2 4.9 11.49 5 15.39 5 13.8 0 20-11.4 26.89-25 8.5-16.6 16-35.9 16-35.9s-9.4 52.2 16.3 52.2c9.39 0 18.79-12.1 23-18.3v.1s.2-.4.7-1.2c1-1.5 1.5-2.4 1.5-2.4v-.3c3.8-6.5 12.1-21.4 24.59-46 16.2-31.8 31.69-71.5 31.69-71.5a201.24 201.24 0 0 0 6.2 25.8c2.8 9.5 8.7 19.9 13.4 30-3.8 5.2-6.1 8.2-6.1 8.2a.31.31 0 0 0 .1.2c-3 4-6.4 8.3-9.9 12.5-12.79 15.2-28 32.6-30 37.6-2.4 5.9-1.8 10.3 2.8 13.7 3.4 2.6 9.4 3 15.69 2.5 11.5-.8 19.6-3.6 23.5-5.4a82.2 82.2 0 0 0 20.19-10.6c12.5-9.2 20.1-22.4 19.4-39.8-.4-9.6-3.5-19.2-7.3-28.2 1.1-1.6 2.3-3.3 3.4-5C434.8 301.72 450.1 270 450.1 270a201.24 201.24 0 0 0 6.2 25.8c2.4 8.1 7.09 17 11.39 25.7-18.59 15.1-30.09 32.6-34.09 44.1-7.4 21.3-1.6 30.9 9.3 33.1 4.9 1 11.9-1.3 17.1-3.5a79.46 79.46 0 0 0 21.59-11.1c12.5-9.2 24.59-22.1 23.79-39.6-.3-7.9-2.5-15.8-5.4-23.4 15.7-6.6 36.09-10.2 62.09-7.2 55.68 6.5 66.58 41.3 64.48 55.8s-13.8 22.6-17.7 25-5.1 3.3-4.8 5.1c.5 2.6 2.3 2.5 5.6 1.9 4.6-.8 29.19-11.8 30.29-38.7 1.6-34-31.09-71.4-89-71.1zm-429.18 144.7c-18.39 20.1-44.19 27.7-55.28 21.3C54.61 451 59.31 421.42 82 400c13.8-13 31.59-25 43.39-32.4 2.7-1.6 6.6-4 11.4-6.9.8-.5 1.2-.7 1.2-.7.9-.6 1.9-1.1 2.9-1.7 8.29 30.4.3 57.2-19.1 78.3zm134.36-91.4c-6.4 15.7-19.89 55.7-28.09 53.6-7-1.8-11.3-32.3-1.4-62.3 5-15.1 15.6-33.1 21.9-40.1 10.09-11.3 21.19-14.9 23.79-10.4 3.5 5.9-12.2 49.4-16.2 59.2zm111 53c-2.7 1.4-5.2 2.3-6.4 1.6-.9-.5 1.1-2.4 1.1-2.4s13.9-14.9 19.4-21.7c3.2-4 6.9-8.7 10.89-13.9 0 .5.1 1 .1 1.6-.13 17.9-17.32 30-25.12 34.8zm85.58-19.5c-2-1.4-1.7-6.1 5-20.7 2.6-5.7 8.59-15.3 19-24.5a36.18 36.18 0 0 1 1.9 10.8c-.1 22.5-16.2 30.9-25.89 34.4z" />
-              </svg>
-            </div>
-            <h4 class="skills__name">SCSS</h4>
-            <small class="skills__description-namr">Lenguaje de marcado</small>
-          </div>
+                <div class="about__contact">
+                    <a class="about__link-contact" href="https://www.facebook.com/fabian.ruizcarmona" data-aos="fade-up" data-aos-delay="150" target="_blank">
+                        <img src="./assets/icons/facebook.svg" alt="icon-facebook">
+                    </a>
 
-          <div class="skills__box">
-            <div class="skills__icons">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="30" height="30">
-                <path
-                  d="M14 95.7924C14 42.8877 56.8878 0 109.793 0H274.161C327.066 0 369.954 42.8877 369.954 95.7924C369.954 129.292 352.758 158.776 326.711 175.897C352.758 193.019 369.954 222.502 369.954 256.002C369.954 308.907 327.066 351.795 274.161 351.795H272.081C247.279 351.795 224.678 342.369 207.666 326.904V415.167C207.666 468.777 163.657 512 110.309 512C57.5361 512 14 469.243 14 416.207C14 382.709 31.1945 353.227 57.2392 336.105C31.1945 318.983 14 289.5 14 256.002C14 222.502 31.196 193.019 57.2425 175.897C31.196 158.776 14 129.292 14 95.7924ZM176.288 191.587H109.793C74.2172 191.587 45.3778 220.427 45.3778 256.002C45.3778 291.44 73.9948 320.194 109.381 320.416C109.518 320.415 109.655 320.415 109.793 320.415H176.288V191.587ZM207.666 256.002C207.666 291.577 236.505 320.417 272.081 320.417H274.161C309.737 320.417 338.576 291.577 338.576 256.002C338.576 220.427 309.737 191.587 274.161 191.587H272.081C236.505 191.587 207.666 220.427 207.666 256.002ZM109.793 351.795C109.655 351.795 109.518 351.794 109.381 351.794C73.9948 352.015 45.3778 380.769 45.3778 416.207C45.3778 451.652 74.6025 480.622 110.309 480.622C146.591 480.622 176.288 451.186 176.288 415.167V351.795H109.793ZM109.793 31.3778C74.2172 31.3778 45.3778 60.2173 45.3778 95.7924C45.3778 131.368 74.2172 160.207 109.793 160.207H176.288V31.3778H109.793ZM207.666 160.207H274.161C309.737 160.207 338.576 131.368 338.576 95.7924C338.576 60.2173 309.737 31.3778 274.161 31.3778H207.666V160.207Z" />
-              </svg>
-            </div>
-            <h4 class="skills__name">FIGMA</h4>
-            <small class="skills__description-namr">Lenguaje de marcado</small>
-          </div>
+                    <a class="about__link-contact" href="https://www.instagram.com/francko1409/" data-aos="fade-up" data-aos-delay="300" target="_blank">
+                        <img src="./assets/icons/instagram.svg" alt="icon-instagram">
+                    </a>
 
-          <div class="skills__box">
-            <div class="skills__icons">
-              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                width="30" height="30" viewBox="0 0 16 16">
-                <path fill="#000000"
-                  d="M15.698 7.287l-6.986-6.986c-0.402-0.402-1.055-0.402-1.457 0l-1.623 1.623 1.221 1.221c0.196-0.094 0.415-0.146 0.647-0.146 0.828 0 1.5 0.672 1.5 1.5 0 0.232-0.053 0.451-0.146 0.647l2 2c0.196-0.094 0.415-0.146 0.647-0.146 0.828 0 1.5 0.672 1.5 1.5s-0.672 1.5-1.5 1.5-1.5-0.672-1.5-1.5c0-0.232 0.053-0.451 0.146-0.647l-2-2c-0.048 0.023-0.097 0.043-0.147 0.061v4.171c0.583 0.206 1 0.761 1 1.414 0 0.828-0.672 1.5-1.5 1.5s-1.5-0.672-1.5-1.5c0-0.653 0.417-1.208 1-1.414v-4.171c-0.583-0.206-1-0.761-1-1.414 0-0.232 0.053-0.451 0.146-0.647l-1.221-1.221-4.623 4.623c-0.402 0.403-0.402 1.055 0 1.458l6.986 6.986c0.402 0.402 1.054 0.402 1.457 0l6.953-6.953c0.402-0.403 0.402-1.055-0-1.458z">
-                </path>
-              </svg>
-            </div>
-            <h4 class="skills__name">GIT</h4>
-            <small class="skills__description-namr">Lenguaje de marcado</small>
-          </div>
+                    <a class="about__link-contact" href="https://t.me/FABIANRUIZCARMONA" data-aos="fade-up" data-aos-delay="450" target="_blank">
+                        <img src="./assets/icons/telegram.svg" alt="icon-telegram">
+                    </a>
 
-          <div class="skills__box">
-            <div class="skills__icons">
-              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                width="30" height="30" viewBox="0 0 16 16">
-                <path fill="#000000"
-                  d="M8 0.198c-4.418 0-8 3.582-8 8 0 3.535 2.292 6.533 5.471 7.591 0.4 0.074 0.547-0.174 0.547-0.385 0-0.191-0.008-0.821-0.011-1.489-2.226 0.484-2.695-0.944-2.695-0.944-0.364-0.925-0.888-1.171-0.888-1.171-0.726-0.497 0.055-0.486 0.055-0.486 0.803 0.056 1.226 0.824 1.226 0.824 0.714 1.223 1.872 0.869 2.328 0.665 0.072-0.517 0.279-0.87 0.508-1.070-1.777-0.202-3.645-0.888-3.645-3.954 0-0.873 0.313-1.587 0.824-2.147-0.083-0.202-0.357-1.015 0.077-2.117 0 0 0.672-0.215 2.201 0.82 0.638-0.177 1.322-0.266 2.002-0.269 0.68 0.003 1.365 0.092 2.004 0.269 1.527-1.035 2.198-0.82 2.198-0.82 0.435 1.102 0.162 1.916 0.079 2.117 0.513 0.56 0.823 1.274 0.823 2.147 0 3.073-1.872 3.749-3.653 3.947 0.287 0.248 0.543 0.735 0.543 1.481 0 1.070-0.009 1.932-0.009 2.195 0 0.213 0.144 0.462 0.55 0.384 3.177-1.059 5.466-4.057 5.466-7.59 0-4.418-3.582-8-8-8z">
-                </path>
-              </svg>
-            </div>
-            <h4 class="skills__name">GITHUB</h4>
-            <small class="skills__description-namr">Lenguaje de marcado</small>
-          </div>
-        </div>
+                    <a class="about__link-contact" href="https://api.whatsapp.com/send?phone=51992172752" data-aos="fade-up" data-aos-delay="600" target="_blank">
+                        <img src="./assets/icons/whatsapp.svg" alt="icon-whatsapp">
+                    </a>
 
+                    <a class="about__link-contact" href="mailto:fabigian14@hotmail.com" data-aos="fade-up" data-aos-delay="750" target="_blank">
+                        <img src="./assets/icons/envelope.svg" alt="icon-correo">
+                    </a>
 
-        <h4>TECNOLOGÍAS POR APRENDER</h4>
+                    <a class="about__link-contact" href="tel:51992172752" data-aos="fade-up" data-aos-delay="900">
+                        <img src="./assets/icons/phone.svg" alt="icon-phone">
+                    </a>
 
-        <div class="skills__tecnology l-content">
-          <div class="skills__box">
-            <div class="skills__icons">
-              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                width="30" height="30" viewBox="0 0 16 16">
-                <path fill="#000000"
-                  d="M0.946 0l1.284 14.4 5.762 1.6 5.777-1.602 1.286-14.398h-14.108zM12.668 13.482l-4.644 1.287v0.007l-0.012-0.004-0.012 0.004v-0.007l-4.644-1.287-1.098-12.304h11.508l-1.098 12.304zM10.168 8.284l-0.204 2.29-1.972 0.532-1.967-0.53-0.126-1.41h-1.773l0.247 2.774 3.626 1.003 3.615-1.003 0.485-5.422h-6.437l-0.161-1.809h6.758l0.158-1.766h-8.847l0.477 5.341z">
-                </path>
-              </svg>
-            </div>
-            <h4 class="skills__name">HTML</h4>
-            <small class="skills__description-namr">Lenguaje de marcado</small>
-          </div>
-
-          <div class="skills__box">
-            <div class="skills__icons">
-              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                width="30" height="30" viewBox="0 0 16 16">
-                <path fill="#000000"
-                  d="M2.381 0.758l-0.537 2.686h10.934l-0.342 1.735h-10.94l-0.53 2.686h10.933l-0.61 3.063-4.406 1.46-3.819-1.46 0.261-1.329h-2.686l-0.639 3.224 6.316 2.417 7.281-2.417 2.403-12.066z">
-                </path>
-              </svg>
-            </div>
-            <h4 class="skills__name">HTML</h4>
-            <small class="skills__description-namr">Lenguaje de marcado</small>
-          </div>
-
-          <div class="skills__box">
-            <div class="skills__icons">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="30" height="30">
-                <path
-                  d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z" />
-              </svg>
-            </div>
-            <h4 class="skills__name">HTML</h4>
-            <small class="skills__description-namr">Lenguaje de marcado</small>
-          </div>
-
-          <div class="skills__box">
-            <div class="skills__icons">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="30" height="30">
-                <path
-                  d="M14 95.7924C14 42.8877 56.8878 0 109.793 0H274.161C327.066 0 369.954 42.8877 369.954 95.7924C369.954 129.292 352.758 158.776 326.711 175.897C352.758 193.019 369.954 222.502 369.954 256.002C369.954 308.907 327.066 351.795 274.161 351.795H272.081C247.279 351.795 224.678 342.369 207.666 326.904V415.167C207.666 468.777 163.657 512 110.309 512C57.5361 512 14 469.243 14 416.207C14 382.709 31.1945 353.227 57.2392 336.105C31.1945 318.983 14 289.5 14 256.002C14 222.502 31.196 193.019 57.2425 175.897C31.196 158.776 14 129.292 14 95.7924ZM176.288 191.587H109.793C74.2172 191.587 45.3778 220.427 45.3778 256.002C45.3778 291.44 73.9948 320.194 109.381 320.416C109.518 320.415 109.655 320.415 109.793 320.415H176.288V191.587ZM207.666 256.002C207.666 291.577 236.505 320.417 272.081 320.417H274.161C309.737 320.417 338.576 291.577 338.576 256.002C338.576 220.427 309.737 191.587 274.161 191.587H272.081C236.505 191.587 207.666 220.427 207.666 256.002ZM109.793 351.795C109.655 351.795 109.518 351.794 109.381 351.794C73.9948 352.015 45.3778 380.769 45.3778 416.207C45.3778 451.652 74.6025 480.622 110.309 480.622C146.591 480.622 176.288 451.186 176.288 415.167V351.795H109.793ZM109.793 31.3778C74.2172 31.3778 45.3778 60.2173 45.3778 95.7924C45.3778 131.368 74.2172 160.207 109.793 160.207H176.288V31.3778H109.793ZM207.666 160.207H274.161C309.737 160.207 338.576 131.368 338.576 95.7924C338.576 60.2173 309.737 31.3778 274.161 31.3778H207.666V160.207Z" />
-              </svg>
-            </div>
-            <h4 class="skills__name">HTML</h4>
-            <small class="skills__description-name">Lenguaje de marcado</small>
-          </div>
-
-          <div class="skills__box">
-            <div class="skills__icons">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="35" height="35">
-                <path
-                  d="M301.84 378.92c-.3.6-.6 1.08 0 0zm249.13-87a131.16 131.16 0 0 0-58 13.5c-5.9-11.9-12-22.3-13-30.1-1.2-9.1-2.5-14.5-1.1-25.3s7.7-26.1 7.6-27.2-1.4-6.6-14.3-6.7-24 2.5-25.29 5.9a122.83 122.83 0 0 0-5.3 19.1c-2.3 11.7-25.79 53.5-39.09 75.3-4.4-8.5-8.1-16-8.9-22-1.2-9.1-2.5-14.5-1.1-25.3s7.7-26.1 7.6-27.2-1.4-6.6-14.29-6.7-24 2.5-25.3 5.9-2.7 11.4-5.3 19.1-33.89 77.3-42.08 95.4c-4.2 9.2-7.8 16.6-10.4 21.6-.4.8-.7 1.3-.9 1.7.3-.5.5-1 .5-.8-2.2 4.3-3.5 6.7-3.5 6.7v.1c-1.7 3.2-3.6 6.1-4.5 6.1-.6 0-1.9-8.4.3-19.9 4.7-24.2 15.8-61.8 15.7-63.1-.1-.7 2.1-7.2-7.3-10.7-9.1-3.3-12.4 2.2-13.2 2.2s-1.4 2-1.4 2 10.1-42.4-19.39-42.4c-18.4 0-44 20.2-56.58 38.5-7.9 4.3-25 13.6-43 23.5-6.9 3.8-14 7.7-20.7 11.4-.5-.5-.9-1-1.4-1.5-35.79-38.2-101.87-65.2-99.07-116.5 1-18.7 7.5-67.8 127.07-127.4 98-48.8 176.35-35.4 189.84-5.6 19.4 42.5-41.89 121.6-143.66 133-38.79 4.3-59.18-10.7-64.28-16.3-5.3-5.9-6.1-6.2-8.1-5.1-3.3 1.8-1.2 7 0 10.1 3 7.9 15.5 21.9 36.79 28.9 18.7 6.1 64.18 9.5 119.17-11.8 61.78-23.8 109.87-90.1 95.77-145.6C386.52 18.32 293-.18 204.57 31.22c-52.69 18.7-109.67 48.1-150.66 86.4-48.69 45.6-56.48 85.3-53.28 101.9 11.39 58.9 92.57 97.3 125.06 125.7-1.6.9-3.1 1.7-4.5 2.5-16.29 8.1-78.18 40.5-93.67 74.7-17.5 38.8 2.9 66.6 16.29 70.4 41.79 11.6 84.58-9.3 107.57-43.6s20.2-79.1 9.6-99.5c-.1-.3-.3-.5-.4-.8 4.2-2.5 8.5-5 12.8-7.5 8.29-4.9 16.39-9.4 23.49-13.3-4 10.8-6.9 23.8-8.4 42.6-1.8 22 7.3 50.5 19.1 61.7 5.2 4.9 11.49 5 15.39 5 13.8 0 20-11.4 26.89-25 8.5-16.6 16-35.9 16-35.9s-9.4 52.2 16.3 52.2c9.39 0 18.79-12.1 23-18.3v.1s.2-.4.7-1.2c1-1.5 1.5-2.4 1.5-2.4v-.3c3.8-6.5 12.1-21.4 24.59-46 16.2-31.8 31.69-71.5 31.69-71.5a201.24 201.24 0 0 0 6.2 25.8c2.8 9.5 8.7 19.9 13.4 30-3.8 5.2-6.1 8.2-6.1 8.2a.31.31 0 0 0 .1.2c-3 4-6.4 8.3-9.9 12.5-12.79 15.2-28 32.6-30 37.6-2.4 5.9-1.8 10.3 2.8 13.7 3.4 2.6 9.4 3 15.69 2.5 11.5-.8 19.6-3.6 23.5-5.4a82.2 82.2 0 0 0 20.19-10.6c12.5-9.2 20.1-22.4 19.4-39.8-.4-9.6-3.5-19.2-7.3-28.2 1.1-1.6 2.3-3.3 3.4-5C434.8 301.72 450.1 270 450.1 270a201.24 201.24 0 0 0 6.2 25.8c2.4 8.1 7.09 17 11.39 25.7-18.59 15.1-30.09 32.6-34.09 44.1-7.4 21.3-1.6 30.9 9.3 33.1 4.9 1 11.9-1.3 17.1-3.5a79.46 79.46 0 0 0 21.59-11.1c12.5-9.2 24.59-22.1 23.79-39.6-.3-7.9-2.5-15.8-5.4-23.4 15.7-6.6 36.09-10.2 62.09-7.2 55.68 6.5 66.58 41.3 64.48 55.8s-13.8 22.6-17.7 25-5.1 3.3-4.8 5.1c.5 2.6 2.3 2.5 5.6 1.9 4.6-.8 29.19-11.8 30.29-38.7 1.6-34-31.09-71.4-89-71.1zm-429.18 144.7c-18.39 20.1-44.19 27.7-55.28 21.3C54.61 451 59.31 421.42 82 400c13.8-13 31.59-25 43.39-32.4 2.7-1.6 6.6-4 11.4-6.9.8-.5 1.2-.7 1.2-.7.9-.6 1.9-1.1 2.9-1.7 8.29 30.4.3 57.2-19.1 78.3zm134.36-91.4c-6.4 15.7-19.89 55.7-28.09 53.6-7-1.8-11.3-32.3-1.4-62.3 5-15.1 15.6-33.1 21.9-40.1 10.09-11.3 21.19-14.9 23.79-10.4 3.5 5.9-12.2 49.4-16.2 59.2zm111 53c-2.7 1.4-5.2 2.3-6.4 1.6-.9-.5 1.1-2.4 1.1-2.4s13.9-14.9 19.4-21.7c3.2-4 6.9-8.7 10.89-13.9 0 .5.1 1 .1 1.6-.13 17.9-17.32 30-25.12 34.8zm85.58-19.5c-2-1.4-1.7-6.1 5-20.7 2.6-5.7 8.59-15.3 19-24.5a36.18 36.18 0 0 1 1.9 10.8c-.1 22.5-16.2 30.9-25.89 34.4z" />
-              </svg>
-            </div>
-            <h4 class="skills__name">HTML</h4>
-            <small class="skills__description-namr">Lenguaje de marcado</small>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ======== MIS HABILIDADES ======== -->
-
-
-    <!-- ======== MIS SERVICIOS ======== -->
-    <section class="services l-full-content">
-      <div class="services-container">
-        <span class="frontend-developer">FRONTEND DEVELOPER</span>
-        <h2 class="services__title">MIS SERVICIOS</h2>
-        <div class="circle-travel"></div>
-
-        <div class="services-all l-content">
-          <div class="services__box">
-            <img class="services__img" src="./assets/icons/maquetacion.svg" alt="">
-            <h4 class="services__description">MAQUETACIÓN WEB</h2>
-          </div>
-
-          <div class="services__box">
-            <img class="services__img" src="./assets/icons/lnr-laptop-phone.svg" alt="">
-            <h4 class="services__description">DESARROLLO A MEDIDA</h2>
-          </div>
-
-          <div class="services__box">
-            <img class="services__img" src="./assets/icons/seo.svg" alt="">
-            <h4 class="services__description">SEO</h2>
-          </div>
-
-          <div class="services__box">
-            <img class="services__img" src="./assets/icons/lnr-earth.svg" alt="">
-            <h4 class="services__description">ACCESIBILIDAD WEB</h2>
-          </div>
-
-          <div class="services__box">
-            <img class="services__img" src="./assets/icons/lnr-cog.svg" alt="">
-            <h4 class="services__description">AUTOMATIZACIÓN</h2>
-          </div>
-
-          <div class="services__box">
-            <img class="services__img" src="./assets/icons/lnr-rocket.svg" alt="">
-            <h4 class="services__description">DOMINIO & HOSTING</h2>
-          </div>
-        </div>
-        <p class="services__down">El diseño de sitios web receptivos es esencial para los usuarios, el 52.2 % que
-          acceden a Internet, navegan de teléfonos inteligentes y tabletas.</p>
-    </section>
-    <!-- ======== MIS SERVICIOS ======== -->
-
-
-    <!-- ======== MIS PROYECTOS ======== -->
-    <section class="project l-full-content">
-      <span class="frontend-developer">FRONTEND DEVELOPER</span>
-      <div class="project-container">
-        <h2 class="project__title">MIS PROYECTOS</h2>
-        <div class="circle-travel"></div>
-
-        <div class="project-cards">
-          <div class="card">
-            <article class="card__box">
-              <div class="card__container">
-                <img class="card__img" src="./assets/hero.jpg" alt="">
-                <div class="card__overlay">
-                  <p class="card__title-overlay">WEBSITE</p>
+                    <a class="about__link-contact" href="#" data-aos="fade-up" data-aos-delay="1050">
+                        <img src="./assets/icons/twitter.svg" alt="icon-twitter">
+                    </a>
                 </div>
-              </div>
+        </section>
+        <!-- ======== ACERCA DE MI ======== -->
 
-              <div class="card__description">
-                <h2 class="card__date">PROJECT - 1</h2>
-              </div>
-            </article>
 
-            <article class="card__box">
-              <div class="card__container">
-                <img class="card__img" src="./assets/hero.jpg" alt="">
-                <div class="card__overlay">
-                  <p class="card__title-overlay">WEBSITE</p>
+        <!-- ======== MIS HABILIDADES ======== -->
+        <section id="habilidades" class="skills l-full-content">
+            <div class="skills-container">
+                <span class="frontend-developer">FRONTEND DEVELOPER</span>
+                <h2 class="skills__title">TECNOLOGÍAS</h2>
+                <div class="circle-travel"></div>
+
+                <div class="skills__tecnology l-content">
+                    <div class="skills__box">
+                        <div class="skills__icons" data-aos="fade-up" data-aos-delay="150">
+                            <img src="./assets/icons/html.svg" alt="icon-html">
+                        </div>
+                        <h4 class="skills__name">HTML</h4>
+                        <small class="skills__description-namr">Lenguaje de marcado</small>
+                    </div>
+
+                    <div class="skills__box">
+                        <div class="skills__icons" data-aos="fade-up" data-aos-delay="300">
+                            <img src="./assets/icons/css.svg" alt="">
+                        </div>
+                        <h4 class="skills__name">CSS</h4>
+                        <small class="skills__description-namr">Lenguaje de diseño gráfico</small>
+                    </div>
+
+                    <div class="skills__box">
+                        <div class="skills__icons" data-aos="fade-up" data-aos-delay="450">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="40" height="40"><path d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z" /></svg>
+                        </div>
+                        <h4 class="skills__name">JAVA SCRIPT</h4>
+                        <small class="skills__description-namr">Lenguaje de programación</small>
+                    </div>
+
+                    <div class="skills__box">
+                        <div class="skills__icons" data-aos="fade-up" data-aos-delay="600">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="40" height="40"><path d="M333.5,201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4,238.2,333.5,225,333.5,201.4z M517,188.6 c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1,0-55.8,28.1-54.7,58.5c1,29.3-0.3,67.2-9.8,98.1 c-9.6,31-25.7,50.6-52.2,53.1v28.5c26.4,2.5,42.6,22.1,52.2,53.1c9.5,30.9,10.9,68.8,9.8,98.1c-1.1,30.5,22.7,58.5,54.7,58.5h328.7 c32.1,0,55.8-28.1,54.7-58.5c-1-29.3,0.3-67.2,9.8-98.1c9.6-31,25.7-50.6,52.1-53.1v-28.5C542.7,239.2,526.5,219.6,517,188.6z M300.2,375.1h-97.9V136.8h97.4c43.3,0,71.7,23.4,71.7,59.4c0,25.3-19.1,47.9-43.5,51.8v1.3c33.2,3.6,55.5,26.6,55.5,58.3 C383.4,349.7,352.1,375.1,300.2,375.1z M290.2,266.4h-50.1v78.4h52.3c34.2,0,52.3-13.7,52.3-39.5 C344.7,279.6,326.1,266.4,290.2,266.4z" /></svg>
+                        </div>
+                        <h4 class="skills__name">BOOTSTRAP</h4>
+                        <small class="skills__description-namr">Framework de CSS</small>
+                    </div>
+
+                    <div class="skills__box">
+                        <div class="skills__icons" data-aos="fade-up" data-aos-delay="750">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="40" height="40"> <path d="M301.84 378.92c-.3.6-.6 1.08 0 0zm249.13-87a131.16 131.16 0 0 0-58 13.5c-5.9-11.9-12-22.3-13-30.1-1.2-9.1-2.5-14.5-1.1-25.3s7.7-26.1 7.6-27.2-1.4-6.6-14.3-6.7-24 2.5-25.29 5.9a122.83 122.83 0 0 0-5.3 19.1c-2.3 11.7-25.79 53.5-39.09 75.3-4.4-8.5-8.1-16-8.9-22-1.2-9.1-2.5-14.5-1.1-25.3s7.7-26.1 7.6-27.2-1.4-6.6-14.29-6.7-24 2.5-25.3 5.9-2.7 11.4-5.3 19.1-33.89 77.3-42.08 95.4c-4.2 9.2-7.8 16.6-10.4 21.6-.4.8-.7 1.3-.9 1.7.3-.5.5-1 .5-.8-2.2 4.3-3.5 6.7-3.5 6.7v.1c-1.7 3.2-3.6 6.1-4.5 6.1-.6 0-1.9-8.4.3-19.9 4.7-24.2 15.8-61.8 15.7-63.1-.1-.7 2.1-7.2-7.3-10.7-9.1-3.3-12.4 2.2-13.2 2.2s-1.4 2-1.4 2 10.1-42.4-19.39-42.4c-18.4 0-44 20.2-56.58 38.5-7.9 4.3-25 13.6-43 23.5-6.9 3.8-14 7.7-20.7 11.4-.5-.5-.9-1-1.4-1.5-35.79-38.2-101.87-65.2-99.07-116.5 1-18.7 7.5-67.8 127.07-127.4 98-48.8 176.35-35.4 189.84-5.6 19.4 42.5-41.89 121.6-143.66 133-38.79 4.3-59.18-10.7-64.28-16.3-5.3-5.9-6.1-6.2-8.1-5.1-3.3 1.8-1.2 7 0 10.1 3 7.9 15.5 21.9 36.79 28.9 18.7 6.1 64.18 9.5 119.17-11.8 61.78-23.8 109.87-90.1 95.77-145.6C386.52 18.32 293-.18 204.57 31.22c-52.69 18.7-109.67 48.1-150.66 86.4-48.69 45.6-56.48 85.3-53.28 101.9 11.39 58.9 92.57 97.3 125.06 125.7-1.6.9-3.1 1.7-4.5 2.5-16.29 8.1-78.18 40.5-93.67 74.7-17.5 38.8 2.9 66.6 16.29 70.4 41.79 11.6 84.58-9.3 107.57-43.6s20.2-79.1 9.6-99.5c-.1-.3-.3-.5-.4-.8 4.2-2.5 8.5-5 12.8-7.5 8.29-4.9 16.39-9.4 23.49-13.3-4 10.8-6.9 23.8-8.4 42.6-1.8 22 7.3 50.5 19.1 61.7 5.2 4.9 11.49 5 15.39 5 13.8 0 20-11.4 26.89-25 8.5-16.6 16-35.9 16-35.9s-9.4 52.2 16.3 52.2c9.39 0 18.79-12.1 23-18.3v.1s.2-.4.7-1.2c1-1.5 1.5-2.4 1.5-2.4v-.3c3.8-6.5 12.1-21.4 24.59-46 16.2-31.8 31.69-71.5 31.69-71.5a201.24 201.24 0 0 0 6.2 25.8c2.8 9.5 8.7 19.9 13.4 30-3.8 5.2-6.1 8.2-6.1 8.2a.31.31 0 0 0 .1.2c-3 4-6.4 8.3-9.9 12.5-12.79 15.2-28 32.6-30 37.6-2.4 5.9-1.8 10.3 2.8 13.7 3.4 2.6 9.4 3 15.69 2.5 11.5-.8 19.6-3.6 23.5-5.4a82.2 82.2 0 0 0 20.19-10.6c12.5-9.2 20.1-22.4 19.4-39.8-.4-9.6-3.5-19.2-7.3-28.2 1.1-1.6 2.3-3.3 3.4-5C434.8 301.72 450.1 270 450.1 270a201.24 201.24 0 0 0 6.2 25.8c2.4 8.1 7.09 17 11.39 25.7-18.59 15.1-30.09 32.6-34.09 44.1-7.4 21.3-1.6 30.9 9.3 33.1 4.9 1 11.9-1.3 17.1-3.5a79.46 79.46 0 0 0 21.59-11.1c12.5-9.2 24.59-22.1 23.79-39.6-.3-7.9-2.5-15.8-5.4-23.4 15.7-6.6 36.09-10.2 62.09-7.2 55.68 6.5 66.58 41.3 64.48 55.8s-13.8 22.6-17.7 25-5.1 3.3-4.8 5.1c.5 2.6 2.3 2.5 5.6 1.9 4.6-.8 29.19-11.8 30.29-38.7 1.6-34-31.09-71.4-89-71.1zm-429.18 144.7c-18.39 20.1-44.19 27.7-55.28 21.3C54.61 451 59.31 421.42 82 400c13.8-13 31.59-25 43.39-32.4 2.7-1.6 6.6-4 11.4-6.9.8-.5 1.2-.7 1.2-.7.9-.6 1.9-1.1 2.9-1.7 8.29 30.4.3 57.2-19.1 78.3zm134.36-91.4c-6.4 15.7-19.89 55.7-28.09 53.6-7-1.8-11.3-32.3-1.4-62.3 5-15.1 15.6-33.1 21.9-40.1 10.09-11.3 21.19-14.9 23.79-10.4 3.5 5.9-12.2 49.4-16.2 59.2zm111 53c-2.7 1.4-5.2 2.3-6.4 1.6-.9-.5 1.1-2.4 1.1-2.4s13.9-14.9 19.4-21.7c3.2-4 6.9-8.7 10.89-13.9 0 .5.1 1 .1 1.6-.13 17.9-17.32 30-25.12 34.8zm85.58-19.5c-2-1.4-1.7-6.1 5-20.7 2.6-5.7 8.59-15.3 19-24.5a36.18 36.18 0 0 1 1.9 10.8c-.1 22.5-16.2 30.9-25.89 34.4z" /> </svg>
+                        </div>
+                        <h4 class="skills__name">SCSS</h4>
+                        <small class="skills__description-namr">Pre-procesador de CSS</small>
+                    </div>
+
+                    <div class="skills__box">
+                        <div class="skills__icons" data-aos="fade-up" data-aos-delay="900">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="40" height="40"> <path d="M14 95.7924C14 42.8877 56.8878 0 109.793 0H274.161C327.066 0 369.954 42.8877 369.954 95.7924C369.954 129.292 352.758 158.776 326.711 175.897C352.758 193.019 369.954 222.502 369.954 256.002C369.954 308.907 327.066 351.795 274.161 351.795H272.081C247.279 351.795 224.678 342.369 207.666 326.904V415.167C207.666 468.777 163.657 512 110.309 512C57.5361 512 14 469.243 14 416.207C14 382.709 31.1945 353.227 57.2392 336.105C31.1945 318.983 14 289.5 14 256.002C14 222.502 31.196 193.019 57.2425 175.897C31.196 158.776 14 129.292 14 95.7924ZM176.288 191.587H109.793C74.2172 191.587 45.3778 220.427 45.3778 256.002C45.3778 291.44 73.9948 320.194 109.381 320.416C109.518 320.415 109.655 320.415 109.793 320.415H176.288V191.587ZM207.666 256.002C207.666 291.577 236.505 320.417 272.081 320.417H274.161C309.737 320.417 338.576 291.577 338.576 256.002C338.576 220.427 309.737 191.587 274.161 191.587H272.081C236.505 191.587 207.666 220.427 207.666 256.002ZM109.793 351.795C109.655 351.795 109.518 351.794 109.381 351.794C73.9948 352.015 45.3778 380.769 45.3778 416.207C45.3778 451.652 74.6025 480.622 110.309 480.622C146.591 480.622 176.288 451.186 176.288 415.167V351.795H109.793ZM109.793 31.3778C74.2172 31.3778 45.3778 60.2173 45.3778 95.7924C45.3778 131.368 74.2172 160.207 109.793 160.207H176.288V31.3778H109.793ZM207.666 160.207H274.161C309.737 160.207 338.576 131.368 338.576 95.7924C338.576 60.2173 309.737 31.3778 274.161 31.3778H207.666V160.207Z" /> </svg>
+                        </div>
+                        <h4 class="skills__name">FIGMA</h4>
+                        <small class="skills__description-namr">Editor de gráficos</small>
+                    </div>
+
+                    <div class="skills__box">
+                        <div class="skills__icons" data-aos="fade-up" data-aos-delay="1050"> 
+                            <img src="./assets/icons/git.svg" alt="">
+                        </div>
+                        <h4 class="skills__name">GIT</h4>
+                        <small class="skills__description-namr">Softw. control de versiones</small>
+                    </div>
+
+                    <div class="skills__box">
+                        <div class="skills__icons" data-aos="fade-up" data-aos-delay="1200">
+                            <img src="./assets/icons/github.svg" alt="">
+                        </div>
+                        <h4 class="skills__name">GITHUB</h4>
+                        <small class="skills__description-namr">Almacenamiento en la nube</small>
+                    </div>
+
+                    <div class="skills__box">
+                        <div class="skills__icons" data-aos="fade-up" data-aos-delay="300">
+                            <img src="./assets/icons/responsive.svg" alt="">
+                        </div>
+                        <h4 class="skills__name">RESPONSIVE DESIGN</h4>
+                        <small class="skills__description-namr">Diseño web adaptable</small>
+                    </div>
                 </div>
-              </div>
 
-              <div class="card__description">
-                <h2 class="card__date">PROJECT - 2</h2>
-              </div>
-            </article>
 
-            <article class="card__box">
-              <div class="card__container">
-                <img class="card__img" src="./assets/hero.jpg" alt="">
-                <div class="card__overlay">
-                  <p class="card__title-overlay">WEBSITE</p>
+                <h4>TECNOLOGÍAS POR APRENDER</h4>
+
+                <div class="skills__tecnology l-content">
+                    <div class="skills__box">
+                        <div class="skills__icons" data-aos="fade-up" data-aos-delay="300">
+                            <i class="icons fa-brands fa-react"></i>
+                        </div>
+                        <h4 class="skills__name">REACT</h4>
+                        <small class="skills__description-namr">Framework de JS</small>
+                    </div>
+
+                    <div class="skills__box">
+                        <div class="skills__icons" data-aos="fade-up" data-aos-delay="450">
+                            <i class="icons fa-brands fa-node-js"></i>
+                        </div>
+                        <h4 class="skills__name">NODE JS</h4>
+                        <small class="skills__description-namr">Lenguaje de programación</small>
+                    </div>
+
+                    <div class="skills__box">
+                        <div class="skills__icons" data-aos="fade-up" data-aos-delay="600">
+                            <i class="icons fa-brands fa-php"></i>
+                        </div>
+                        <h4 class="skills__name">PHP</h4>
+                        <small class="skills__description-namr">Lenguaje de programación</small>
+                    </div>
+
+                    <div class="skills__box">
+                        <div class="skills__icons" data-aos="fade-up" data-aos-delay="750">
+                            <h3 class="skills__icon-name">TP</h3>
+                        </div>
+                        <h4 class="skills__name">TYPESCRIPT</h4>
+                        <small class="skills__description-namr">Lenguaje de programación</small>
+                    </div>
+
+                    <div class="skills__box">
+                        <div class="skills__icons" data-aos="fade-up" data-aos-delay="900">
+                            <h3 class="skills__icon-name">MYSQL</h3>
+                        </div>
+                        <h4 class="skills__name">MYSQL - SQL</h4>
+                        <small class="skills__description-namr">Base de datos</small>
+                    </div>
+
+                    <div class="skills__box">
+                        <div class="skills__icons" data-aos="fade-up" data-aos-delay="1050">
+                            <h3 class="skills__icon-name">PS</h3>
+                        </div>
+                        <h4 class="skills__name">PHOTOSHOP</h4>
+                        <small class="skills__description-namr">Prog. de edición de img</small>
+                    </div>  
                 </div>
-              </div>
+            </div>
+        </section>
+        <!-- ======== MIS HABILIDADES ======== -->
 
-              <div class="card__description">
-                <h2 class="card__date">PROJECT - 3</h2>
-              </div>
-            </article>
 
-            <article class="card__box">
-              <div class="card__container">
-                <img class="card__img" src="./assets/hero.jpg" alt="">
-                <div class="card__overlay">
-                  <p class="card__title-overlay">WEBSITE</p>
+        <!-- ======== MIS SERVICIOS ======== -->
+        <section id="servicios" class="services l-full-content">
+            <div class="services-container">
+                <span class="frontend-developer">FRONTEND DEVELOPER</span>
+                <h2 class="services__title">MIS SERVICIOS</h2>
+                <div class="circle-travel"></div>
+
+                <div class="services-all l-content">
+                    <div class="services__box">
+                        <img class="services__img" src="./assets/icons/code.svg" alt="icon-code">
+                        <h4 class="services__description">MAQUETACIÓN WEB</h2>
+                        <small class="services__text">Prototipo y maqueto tus diseños estáticos con las nuevas tecnologías del mercado,y los convierto en increíbles sitios  web responsivas, óptimas y accesibles.</small>
+                    </div>
+
+                    <div class="services__box">
+                        <img class="services__img" src="./assets/icons/responsive.svg" alt="icon-laptop-mobil">
+                        <h4 class="services__description">DESARROLLO A MEDIDA</h2>
+                        <small class="services__text">Prototipo y maqueto tus diseños estáticos y los convierto en increíbles sitios web responsivas, óptimas y accesibles a dferentes dispositivos digitales para una muy buena experiencia de usuraio</small>
+
+                    </div>
+
+                    <div class="services__box">
+                        <img class="services__img" src="./assets/icons/seo.svg" alt="">
+                        <h4 class="services__description">SEO</h2>
+                        <small class="services__text">Search Engine Optimization, optimizo tus sitios y aplicaciones web para que mejoren su posición en los buscadores orgánicamente.</small>
+                    </div>
+
+                    <div class="services__box">
+                        <img class="services__img" src="./assets/icons/accesibility.svg" alt="icon-mundo">
+                        <h4 class="services__description">WPO</h2>
+                        <small class="services__text">Web Performance Optimization, hago que tus sitios y aplicaciones web mejoren su tiempo de carga y respuesta.</small>         
+                    </div>
+
+                    <div class="services__box">
+                        <img class="services__img" src="./assets/icons/configuracion.svg" alt="icon-configuración">
+                        <h4 class="services__description">SMO</h2>
+                        <small class="services__text">Social Media Optimiztion y Marketing de Contenidos, te ayudo a elegir los canales digitales correctos para llegar tu audiencia ideal.</small>
+
+                    </div>
+
+                    <div class="services__box">
+                        <img class="services__img" src="./assets/icons/lnr-rocket.svg" alt="">
+                        <h4 class="services__description">DOMINIO & HOSTING</h2>
+                        <small class="services__text">¿No cuentas con dominio y hospedaje web para tu proyecto? No te preocupes de esas cosas técnicas me encargo yo.</small>
+                    </div>
                 </div>
-              </div>
+                <p class="services__down">El diseño de sitios web receptivos es esencial para los usuarios, el 52.2 % que acceden a Internet, navegan de teléfonos inteligentes y tabletas.</p>
+        </section>
+        <!-- ======== MIS SERVICIOS ======== -->
 
-              <div class="card__description">
-                <h2 class="card__date">PROJECT - 1</h2>
-              </div>
-            </article>
-          </div>
+
+
+
+        <!-- ======== MIS PROYECTOS ======== -->
+        <section id="proyectos" class="project l-full-content">
+            <span class="frontend-developer">FRONTEND DEVELOPER</span>
+            <div class="project-container">
+                <h2 class="project__title">MIS PROYECTOS</h2>
+                <div class="circle-travel"></div>
+
+                <div class="project-cards">
+                    <div class="card">
+                        <article class="card__box">
+                            <div class="card__container">
+                                <img class="card__img" src="./assets/hero.jpg" alt="">
+                                <div class="card__overlay">
+                                    <p class="card__title-overlay"><span class="card__line"></span> IR A WEBSITE <span
+                                            class="card__line card__line--2"></span></p>
+                                    <a href="#">
+                                        <img src="./assets/icons/enlace.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card__description">
+                                <h2 class="card__date">PROJECT - 1</h2>
+                            </div>
+                        </article>
+
+                        <article class="card__box">
+                            <div class="card__container">
+                                <img class="card__img" src="./assets/hero.jpg" alt="">
+                                <div class="card__overlay">
+                                    <p class="card__title-overlay"><span class="card__line"></span> IR A WEBSITE <span
+                                            class="card__line card__line--2"></span></p>
+                                    <a href="#">
+                                        <img src="./assets/icons/enlace.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card__description">
+                                <h2 class="card__date">PROJECT - 2</h2>
+                            </div>
+                        </article>
+
+                        <article class="card__box">
+                            <div class="card__container">
+                                <img class="card__img" src="./assets/hero.jpg" alt="">
+                                <div class="card__overlay">
+                                    <p class="card__title-overlay"><span class="card__line"></span> IR A WEBSITE <span
+                                            class="card__line card__line--2"></span></p>
+                                    <a href="#">
+                                        <img src="./assets/icons/enlace.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card__description">
+                                <h2 class="card__date">PROJECT - 3</h2>
+                            </div>
+                        </article>
+
+                        <article class="card__box">
+                            <div class="card__container">
+                                <img class="card__img" src="./assets/hero.jpg" alt="">
+                                <div class="card__overlay">
+                                    <p class="card__title-overlay"><span class="card__line"></span> IR A WEBSITE <span
+                                            class="card__line card__line--2"></span></p>
+                                    <a href="#">
+                                        <img src="./assets/icons/enlace.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card__description">
+                                <h2 class="card__date">PROJECT - 4</h2>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ======== MIS PROYECTOS ======== -->
+        <section id="blog" class="blog l-full-content">
+            <span class="frontend-developer">FRONTEND DEVELOPER</span>
+            <div class="blog-container">
+                <h2 class="blog__title">ÚLTIMOS ARTÍCULOS</h2>
+                <div class="circle-travel"></div>
+
+                <div class="blog-cards l-content">
+                    <article class="blog__card" data-aos="flip-left" data-aos-delay="300">
+                        <img class="blog__img" src="./assets/blog/art-1.jpg" alt="">
+                        <div class="blog__footer">
+                            <h4 class="blog__name-article">DESARROLLO web</h4>
+                            <small class="blog__date-article">5, junio del 2022</small>
+                            <p class="blog__description-article">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sem integer
+                                vitae.</p>
+                            <a class="cta" href="#">READ MORE</a>
+                        </div>
+                        <span class="blog__absolute">ARTÍCLE</span>
+                    </article>
+
+                    <article class="blog__card" data-aos="flip-right" data-aos-delay="300">
+                        <img class="blog__img" src="./assets/blog/art-2.jpg" alt="">
+                        <div class="blog__footer">
+                            <h4 class="blog__name-article">SITIO WEB Y PÁGINA WEB</h4>
+                            <small class="blog__date-article">5, junio del 2022</small>
+                            <p class="blog__description-article">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sem integer
+                                vitae.</p>
+                            <a class="cta" href="#">READ MORE</a>
+                        </div>
+                        <span class="blog__absolute">ARTÍCLE</span>
+                    </article>
+
+                    <article class="blog__card" data-aos="flip-left" data-aos-delay="300">
+                        <img class="blog__img" src="./assets/blog/art-3.jpg" alt="">
+                        <div class="blog__footer">
+                            <h4 class="blog__name-article">RESPONSIVE DESIGN</h4>
+                            <small class="blog__date-article">5, junio del 2022</small>
+                            <p class="blog__description-article">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sem integer
+                                vitae.</p>
+                            <a class="cta" href="#">READ MORE</a>
+                        </div>
+                        <span class="blog__absolute">ARTÍCLE</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- ======== MIS PROYECTOS ======== -->
+
+
+        <!-- ======== TESTIMONIALS ======== -->
+        <section class="testimonials l-full-content">
+            <span class="frontend-developer">FRONTEND DEVELOPER</span>
+            <div class="testimonials-container">
+                <h2 class="testimonials__title">TESTIMONIOS</h2>
+                <div class="circle-travel"></div>
+
+                <div class="testimonials__body">
+                    <div class="slider">
+                        <article class="slider__content">
+                            <img class="slider__img" src="./assets/gallery/person-1.webp" alt="persona-1">
+                            <div class="slider__text">
+                                <h2 class="slider__title-person">Mackennye Becker</h2>
+                                <span class="slider__description-person">CLIENTE SATISFECHO</span>
+                                <p class="slider__paragraph"><img class="slider__quote"
+                                        src="./assets/icons/quotes-left.svg" alt=""> Lorem ipsum, Otio porttitor platea
+                                    elementum pellentesque class curae malesuada cubilia mus risus metus lobortis
+                                    inceptos neque, ligula ac eget habitant velit ultricies taciti suspendisse magna
+                                    fames erat id. Congue mattis ligula urna sapien erat quam morbi dignissim, libero
+                                    pellentesque suspendisse semper auctor pretium scelerisque taciti</p>
+                            </div>
+                        </article>
+
+                        <article class="slider__content">
+                            <img class="slider__img" src="./assets/gallery/person-2.webp" alt="persona-2">
+                            <div class="slider__text">
+                                <h2 class="slider__title-person">Francis Williams</h2>
+                                <span class="slider__description-person">CLIENTE SATISFECHO</span>
+                                <p class="slider__paragraph"><img class="slider__quote"
+                                        src="./assets/icons/quotes-left.svg" alt="">Lorem ipsum, scelerisque taciti,
+                                    senectus interdum hac condimentum ornare viverra cum. Sagittis faucibus scelerisque
+                                    montes potenti quisque proin fermentum velit vitae facilisis tellus tempor ante, dui
+                                    fames ridiculus at condimentum eget aenean eleifend lobortis platea lectus.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="slider__content">
+                            <img class="slider__img" src="./assets/gallery/person-3.webp" alt="persona-2">
+                            <div class="slider__text">
+                                <h2 class="slider__title-person">Francis Williams</h2>
+                                <span class="slider__description-person">CLIENTE SATISFECHO</span>
+                                <p class="slider__paragraph"><img class="slider__quote"
+                                        src="./assets/icons/quotes-left.svg" alt="">Lorem ipsum, scelerisque taciti,
+                                    senectus interdum hac condimentum ornare viverra cum. Sagittis faucibus scelerisque
+                                    montes potenti quisque proin fermentum velit vitae facilisis tellus tempor ante, dui
+                                    fames ridiculus at condimentum eget aenean eleifend lobortis platea lectus.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+        </section>
+        <!-- ======== TESTIMONIALS ======== -->
+
+
+        <!-- ======== CONTACT ======== -->
+        <section id="contacto" class="contact l-full-content">
+            <span class="frontend-developer">FRONTEND DEVELOPER</span>
+            <div class="contact-container">
+                <h2 class="contact__title">CONTÁCTAME</h2>
+                <div class="circle-travel"></div>
+
+                <div class="contact__body">
+                    <div class="contact__icons" data-aos="fade-up" data-aos-delay="150">
+                        <!-- <i class="icons-contact fa-solid fa-location-dot"></i> -->
+                        <img class="icons-contact" src="./assets/icons/location.svg" alt="">
+                        <h4 class="contact__date">MY LOCATION</h4>
+                        <p class="contact__referent">Pueblo Nuevo - Ferreñafe</p>
+                    </div>
+                    <div class="contact__icons" data-aos="fade-up" data-aos-delay="300">
+                        <!-- <i class="icons-contact fa-solid fa-mobile-screen-button"></i> -->
+                        <img class="icons-contact" src="./assets/icons/mobile-3.svg" alt="">
+                        <h4 class="contact__date">PHONE NUMBER</h4>
+                        <p class="contact__referent">(+0051) 992172752</p>
+                    </div>
+                    <div class="contact__icons" data-aos="fade-up" data-aos-delay="450">
+                        <!-- <i class="icons-contact fa-solid fa-envelope"></i> -->
+                        <img class="icons-contact" src="./assets/icons/email-2.svg" alt="">
+                        <h4 class="contact__date">EMAIL ADDRESS</h4>
+                        <p class="contact__referent">fabigian14@hotmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======== CONTACT ======== -->
+    </main>
+    <footer>
+        <div class="footer">
+            <span class="footer__frc">@WEBSITE CREATED WITH FABIAN RUIZ</span>
         </div>
-      </div>
-      
-    </section>
-    
-    <!-- ======== MIS PROYECTOS ======== -->
-    <section class="blog l-full-content">
-      <span class="frontend-developer">FRONTEND DEVELOPER</span>
-      <div class="blog-container">
-        <h2 class="blog__title">ÚLTIMOS ARTÍCULOS</h2>
-        <div class="circle-travel"></div>
-
-        <div class="blog-cards l-content">
-          <article class="blog__card">
-            <img class="blog__img" src="./assets/blog/art-1.jpg" alt="">
-            <div class="blog__footer">
-              <h4 class="blog__name-article">DESARROLLO web</h4>
-              <small class="blog__date-article">5, junio del 2022</small>
-              <p class="blog__description-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sem integer vitae.</p>
-              <a class="cta" href="#">READ MORE</a>
-            </div>
-            <span class="blog__absolute">ARTÍCLE</span>
-          </article>
-
-          <article class="blog__card">
-            <img class="blog__img" src="./assets/blog/art-2.jpg" alt="">
-            <div class="blog__footer">
-              <h4 class="blog__name-article">SITIO WEB Y PÁGINA WEB</h4>
-              <small class="blog__date-article">5, junio del 2022</small>
-              <p class="blog__description-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sem integer vitae.</p>
-              <a class="cta" href="#">READ MORE</a>
-            </div>
-            <span class="blog__absolute">ARTÍCLE</span>
-          </article>
-
-          <article class="blog__card">
-            <img class="blog__img" src="./assets/blog/art-3.jpg" alt="">
-            <div class="blog__footer">
-              <h4 class="blog__name-article">RESPONSIVE DESIGN</h4>
-              <small class="blog__date-article">5, junio del 2022</small>
-              <p class="blog__description-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sem integer vitae.</p>
-              <a class="cta" href="#">READ MORE</a>
-            </div>
-            <span class="blog__absolute">ARTÍCLE</span>
-          </article>
-        </div>
-      </div>
-    </section>
-    <!-- ======== MIS PROYECTOS ======== -->
+    </footer>
 
 
-    <!-- ======== TESTIMONIALS ======== -->
-    <section class="testimonials l-full-content">
-      <span class="frontend-developer">FRONTEND DEVELOPER</span>
-      <div class="testimonials-container">
-        <h2 class="testimonials__title">TESTIMONIOS</h2>
-        <div class="circle-travel"></div>
 
-        <div class="testimonials__body">
-          <div class="slider">
-              <article class="slider__content">
-                  <img class="slider__img" src="./assets/gallery/person-1.webp" alt="persona-1">
-                  <div class="slider__text">
-                      <h2 class="slider__title-person">Mackennye Becker</h2>
-                      <span class="slider__description-person">CLIENTE SATISFECHO</span>
-                      <p class="slider__paragraph"><img class="slider__quote" src="./assets/icons/quotes-left.svg" alt=""> Lorem ipsum, Otio porttitor platea elementum pellentesque class curae malesuada cubilia mus risus metus lobortis inceptos neque, ligula ac eget habitant velit ultricies taciti suspendisse magna fames erat id. Congue mattis ligula urna sapien erat quam morbi dignissim, libero pellentesque suspendisse semper auctor pretium scelerisque taciti</p>
-                  </div>
-              </article>
-
-              <article class="slider__content">
-                  <img class="slider__img" src="./assets/gallery/person-2.webp" alt="persona-2">
-                  <div class="slider__text">
-                    <h2 class="slider__title-person">Francis Williams</h2>
-                      <span class="slider__description-person">CLIENTE SATISFECHO</span>
-                      <p class="slider__paragraph"><img class="slider__quote" src="./assets/icons/quotes-left.svg" alt="">Lorem ipsum, scelerisque taciti, senectus interdum hac condimentum ornare viverra cum. Sagittis faucibus scelerisque montes potenti quisque proin fermentum velit vitae facilisis tellus tempor ante, dui fames ridiculus at condimentum eget aenean eleifend lobortis platea lectus.
-                      </p>
-                  </div>
-              </article>
-
-              <article class="slider__content">
-                  <img class="slider__img" src="./assets/gallery/person-3.webp" alt="persona-2">
-                  <div class="slider__text">
-                    <h2 class="slider__title-person">Francis Williams</h2>
-                      <span class="slider__description-person">CLIENTE SATISFECHO</span>
-                      <p class="slider__paragraph"><img class="slider__quote" src="./assets/icons/quotes-left.svg" alt="">Lorem ipsum, scelerisque taciti, senectus interdum hac condimentum ornare viverra cum. Sagittis faucibus scelerisque montes potenti quisque proin fermentum velit vitae facilisis tellus tempor ante, dui fames ridiculus at condimentum eget aenean eleifend lobortis platea lectus.
-                      </p>
-                  </div>
-              </article>
-          </div>
-      </div>
-    </section>
-    <!-- ======== TESTIMONIALS ======== -->
-
-
-    <!-- ======== CONTACT ======== -->
-    <section class="contact l-full-content">
-      <span class="frontend-developer">FRONTEND DEVELOPER</span>
-      <div class="contact-container">
-        <h2 class="contact__title">CONTÁCTAME</h2>
-        <div class="circle-travel"></div>
-
-        <div class="contact__body">
-          <div class="contact__icons" data-aos="fade-up" data-aos-delay="150">
-              <!-- <i class="icons-contact fa-solid fa-location-dot"></i> -->
-              <img class="icons-contact" src="./assets/icons/location.svg" alt="">
-              <h4 class="contact__date">MY LOCATION</h4>
-              <p class="contact__referent">Pueblo Nuevo - Ferreñafe</p>
-          </div>
-          <div class="contact__icons" data-aos="fade-up" data-aos-delay="300">
-              <!-- <i class="icons-contact fa-solid fa-mobile-screen-button"></i> -->
-              <img class="icons-contact" src="./assets/icons/mobile-3.svg" alt="">
-              <h4 class="contact__date">PHONE NUMBER</h4>
-              <p class="contact__referent">(+0051) 992172752</p>
-          </div>
-          <div class="contact__icons" data-aos="fade-up" data-aos-delay="450">
-              <!-- <i class="icons-contact fa-solid fa-envelope"></i> -->
-              <img class="icons-contact" src="./assets/icons/email-2.svg" alt="">
-              <h4 class="contact__date">EMAIL ADDRESS</h4>
-              <p class="contact__referent">fabigian14@hotmail.com</p>
-          </div>
-      </div>
-      </div>
-    </section>
-    <!-- ======== CONTACT ======== -->
-  </main>
-  <footer>
-    <div class="footer">
-      <span class="footer__frc">@WEBSITE CREATED WITH FABIAN RUIZ</span>
-    </div>
-  </footer>
-
-
-  <script src="./script/slider.js"></script>
+    <script src="./script/slider.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            duration: 600,
+        });
+      </script>
 </body>
 
 </html>
