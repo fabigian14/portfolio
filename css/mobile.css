@@ -143,13 +143,13 @@
 
   .services__box {
     padding: 0  1.5rem  1.5rem 1.5rem;
-    width: 80%;
+    width: 90%;
     border: 2px solid var(--orange-color);
     transition: all 0.5s;
   }
 
   .services__box:hover {
-    transform: scale(1.03);
+    transform: scale(1);
   }
 
   .services__img {
@@ -158,7 +158,7 @@
   }
 
   .services__description {
-    font-size: .85rem;
+    font-size: .9rem;
     font-weight: 600;
   }
 

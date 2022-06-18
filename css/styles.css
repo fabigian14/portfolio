@@ -470,7 +470,7 @@ header {
 
 .services__box {
   width: 28%;
-  padding: 2.5rem 1rem;
+  padding: 1rem 1rem;
   border: 2px solid var(--orange-color);
   border-radius: 15px;
   transition: all 0.3s;
@@ -478,6 +478,8 @@ header {
 
 .services__box:hover {
   transform: scale(1.05);
+  background-color: var(--orange-color);
+  color: #fff;
 }
 
 .services__img {
@@ -488,7 +490,7 @@ header {
 }
 
 .services__description {
-  font-size: .85rem;
+  font-size: 1rem;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -499,7 +501,7 @@ header {
   margin: 2px auto;
   width: 60px;
   height: 1px;
-  background-color: var(--orange-color);
+  background-color: var(--base-color);
 }
 .services__text {
   line-height: 1.4;
