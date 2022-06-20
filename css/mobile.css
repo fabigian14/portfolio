@@ -90,13 +90,12 @@
     font-size: 1.5rem;
   }
 
+  .about__text, .about__item-list, .about__bold-list {
+    font-size: .86rem;
+  }
   .about__list {
     column-count: 1;
     margin-bottom: 1rem;
-  }
-
-  .about__bold-list {
-    font-size: .87rem;
   }
 
   .about__contact {
