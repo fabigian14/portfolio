@@ -279,7 +279,7 @@ header {
   align-items: center;
   flex-direction: column;
 
-  background-image: url(../assets/hero.jpg);
+  background-image: url(../assets/hero-portfolio.jpg);
   background-color: rgb(0, 0, 0, 0.9);
   background-size: cover;
   background-attachment: fixed;
