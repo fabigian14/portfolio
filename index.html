@@ -29,20 +29,21 @@
 </head>
 
 <body>
-
-    <header>
-        <div class="header-container">
-            <a class="brand" href="#"><img class="brand-code" src="./assets/icons/code-brand.svg" alt=""> FGRC</a>
-            <nav class="menu">
-                <a class="menu__link" href="#acerca">ACERCA</a>
-                <a class="menu__link" href="#habilidades">SKILLS</a>
-                <a class="menu__link" href="#servicios">SERVICIOS</a>
-                <a class="menu__link" href="#proyectos">PROYECTOS</a>
-                <a class="menu__link" href="#blog">BLOG</a>
-                <a class="menu__link" href="#contacto">CONTACT</a>
-            </nav>
-        </div>
-    </header>
+    <header id="header">
+        <a id="logo" href=""><img class="brand-code" src="./assets/icons/code-brand.svg" alt=""></a>
+        <nav id="nav">
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+            <span id="hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
+            <li><a class="menu__link" href="#acerca">ABOUT</a></li>
+            <li><a class="menu__link" href="#habilidades">SKILLS</a></li>
+            <li><a class="menu__link" href="#servicios">SERVICES</a></li>
+            <li><a class="menu__link" href="#proyectos">PROJECT</a></li>
+            <li><a class="menu__link" href="#contacto">CONTACT</a></li>
+          </ul>
+        </nav>
+      </header>
     <main>
         <section class="hero l-full-content">
             <div class="hero__container">
@@ -100,6 +101,7 @@
                         <img src="./assets/icons/twitter.svg" alt="icon-twitter">
                     </a>
                 </div>
+            </div>
         </section>
         <!-- ======== ACERCA DE MI ======== -->
 
@@ -252,43 +254,44 @@
                 <div class="services-all l-content">
                     <div class="services__box">
                         <img class="services__img" src="./assets/icons/code.svg" alt="icon-code">
-                        <h4 class="services__description">MAQUETACIÓN WEB</h2>
+                        <h4 class="services__description">MAQUETACIÓN WEB</h4>
                         <small class="services__text">Prototipo y maqueto tus diseños estáticos con las nuevas tecnologías del mercado,y los convierto en increíbles sitios  web responsivas, óptimas y accesibles.</small>
                     </div>
 
                     <div class="services__box">
                         <img class="services__img" src="./assets/icons/responsive.svg" alt="icon-laptop-mobil">
-                        <h4 class="services__description">DESARROLLO A MEDIDA</h2>
+                        <h4 class="services__description">DESARROLLO A MEDIDA</h4>
                         <small class="services__text">Prototipo y maqueto tus diseños estáticos y los convierto en increíbles sitios web responsivas, óptimas y accesibles a dferentes dispositivos digitales para una muy buena experiencia de usuario.</small>
 
                     </div>
 
                     <div class="services__box">
                         <img class="services__img" src="./assets/icons/seo.svg" alt="">
-                        <h4 class="services__description">SEO - OPTIMIZATION</h2>
+                        <h4 class="services__description">SEO - OPTIMIZATION</h4>
                         <small class="services__text">Search Engine Optimization, optimizo tus sitios y aplicaciones web para que mejoren su posición en los buscadores orgánicamente.</small>
                     </div>
 
                     <div class="services__box">
                         <img class="services__img" src="./assets/icons/accesibility.svg" alt="icon-mundo">
-                        <h4 class="services__description">WPO - OPTIMIZATION</h2>
+                        <h4 class="services__description">WPO - OPTIMIZATION</h4>
                         <small class="services__text">Web Performance Optimization, hago que tus sitios y aplicaciones web mejoren su tiempo de carga y respuesta.</small>         
                     </div>
 
                     <div class="services__box">
                         <img class="services__img" src="./assets/icons/configuracion.svg" alt="icon-configuración">
-                        <h4 class="services__description">SMO - OPTIMIZATION</h2>
+                        <h4 class="services__description">SMO - OPTIMIZATION</h4>
                         <small class="services__text">Social Media Optimiztion y Marketing de Contenidos, te ayudo a elegir los canales digitales correctos para llegar tu audiencia ideal.</small>
 
                     </div>
 
                     <div class="services__box">
                         <img class="services__img" src="./assets/icons/lnr-rocket.svg" alt="">
-                        <h4 class="services__description">DOMINIO & HOSTING</h2>
+                        <h4 class="services__description">DOMINIO & HOSTING</h4>
                         <small class="services__text">¿No cuentas con dominio y hospedaje web para tu proyecto? No te preocupes de esas cosas técnicas me encargo yo.</small>
                     </div>
                 </div>
                 <p class="services__down">El diseño de sitios web receptivos es esencial para los usuarios, el 52.2 % que acceden a Internet, navegan de teléfonos inteligentes y tabletas.</p>
+            </div>
         </section>
         <!-- ======== MIS SERVICIOS ======== -->
 
@@ -450,6 +453,7 @@
                         </article>
                     </div>
                 </div>
+            </div>
         </section>
         <!-- ======== TESTIMONIALS ======== -->
 
@@ -493,7 +497,8 @@
 
 
 
-    <script src="./script/slider.js"></script>
+    <script src="./js/appy.js"></script>
+    <script src="./js/slider.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
