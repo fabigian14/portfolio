@@ -794,7 +794,7 @@ small {
 
 /* ===== CONTACT ===== */
 .contact {
-    background-image: url(../assets/gallery/bg-contact.jpg);
+    background-image: url(../assets/gallery/bg-contact.webp);
     background-blend-mode: soft-light;
     background-color: rgba(0, 0, 0, .8);
     background-attachment: fixed;
