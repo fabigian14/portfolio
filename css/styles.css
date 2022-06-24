@@ -134,7 +134,7 @@ small {
 
 .mouse {
   position: absolute;
-  border: 2px solid #fff;
+  border: 2px solid rgba(99, 99, 99, 0.6);
   border-radius: 30px;
   height: 50px;
   width: 30px;
@@ -369,7 +369,18 @@ small {
   text-align: center;
   font-size: 2rem;
 }
-
+.about__image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 1rem auto;
+}
+.about__img {
+  width: 100%;
+  height: 100%;
+  filter: saturate(1.5);
+}
 .about__list {
   column-count: 2;
   margin-bottom: 2rem;
