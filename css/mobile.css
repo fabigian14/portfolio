@@ -17,6 +17,9 @@
     .circle-travel::before {
         top: -3.8px;
     }
+    .mouse {
+        bottom: 10%;
+    }
 
 
     @keyframes traslate {
