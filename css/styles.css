@@ -253,7 +253,7 @@ small {
 .menu__link {
     display: block;
     padding: 0.5rem;
-    color: rgb(175, 175, 175);
+    color: var(--white-color);
     font-size: 14px;
 }
 
@@ -274,11 +274,11 @@ small {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(../assets/favf.jpg);
+    background-image: url(../assets/hero.jpg);
     background-attachment: fixed;
-    background-position: bottom right;
-    background-color: rgb(0, 0, 0, 0.9);
-    background-blend-mode: multiply;
+    background-position:  center bottom;
+    background-color: rgb(0, 0, 0, .9);
+    background-blend-mode: darken;
     color: var(--white-color);
     text-align: center;
 }
